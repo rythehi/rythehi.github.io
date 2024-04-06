@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html Apps GUI</title>
+    </head>
+    <body style="background-color: black;">
+        <div id="topbar">
+            <button id="x" onclick="closea()">X</button>
+        </div>
+        <div id="iembeder" class="icon" onclick="embed()">
+            Embeder
+        </div>
+        <div id="inotes" class="icon" onclick="notes()">
+            Notes
+        </div>
+        <div id="itasks" class="icon" onclick="tasks()">
+            Tasks
+        </div>
+        <div id="packager" class="icon" onclick="turbo()">
+            turbowarp packager
+        </div>
+        <iframe id="app">
+            
+        </iframe>
+    </body>
+</html>
+<style>
+  #topbar{
+    position: fixed;
+	border-style: solid;
+    margin: 0px;
+    width: 100%;
+    padding: 10px;
+    left: 0px;
+    top: 0px;
+    background-color: #5c5b59;
+}
+#x{
+	position: relative;
+    border-radius: 200px;
+}
+.icon{
+    position: relative;
+    padding: 50px;
+    border-style: solid;
+    border-radius: 100px;
+    text-align: center;
+    top: 50px;
+    background-color: #5c5b59;
+    width: 50%;
+    margin: auto;
+}
+.icon:hover{
+	animation: .3s 1 normal hover;
+    cursor: pointer;
+    width: 75%;
+}
+@keyframes hover{
+    0%{
+ 	width: 50%;
+    }
+    100%{
+      width: 75%;  
+    }
+}
+#app{
+    position: absolute;
+    top: 4%;
+    left: 0%;
+	width: 100%;
+    height: 96%;
+    display: none;
+    border-color: white;
+    background-color: black;
+}
+</style>
+<script>
+  function embed(){
+	const app = document.getElementById("app");
+    app.src = "embeder.html";
+    app.style.display = "block";
+    document.getElementById('x').style.display = "block";
+}
+function turbo(){
+	const app = document.getElementById("app");
+    app.src = "turbowarp-packager-standalone-1.10.0.html";
+    app.style.display = "block";
+    document.getElementById('x').style.display = "block";
+}
+function notes(){
+	const app = document.getElementById("app");
+    app.src = "notes.html";
+    app.style.display = "block";
+    document.getElementById('x').style.display = "block";
+}
+function tasks(){
+	const app = document.getElementById("app");
+    app.src = "tasks.html";
+    app.style.display = "block";
+    document.getElementById('x').style.display = "block";
+}
+function closea() {
+    var app = document.getElementById("app");
+    app.style.display = "none";
+}
+</script>

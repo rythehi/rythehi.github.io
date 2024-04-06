@@ -1,0 +1,32 @@
+<html>
+<center>
+<button onclick="NewNote()" id="buton">New Note
+</button>
+</center>
+<script>
+function NewNote () {
+let win = window.open('https://sites.google.com/meadville.k12.mo.us/text/home', null, 'popup, width=200, height=200');
+}
+
+function check() {
+    if(win.document) { // if loaded
+        win.document.title = "test"; // set title
+    } else { // if not loaded yet
+        setTimeout(check, 10); // check in another 10ms
+    }
+}
+
+</script>
+<style>
+#buton{
+     width: 100%;
+     height: 100%;
+     color: blue;
+     background-color: rgb(254,255,156);
+     border-color: transparent;
+     border-radius: 5%;
+     font-size: 80px;
+     font-family: Courier New;
+}
+</style>
+</html>
