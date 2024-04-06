@@ -17,7 +17,10 @@
             Tasks
         </div>
         <div id="packager" class="icon" onclick="turbo()">
-            turbowarp packager
+            Turbowarp Packager
+        </div>
+        <div id="packager" class="icon" onclick="pixle()">
+            Pixleorma Pixle Editor
         </div>
         <iframe id="app">
             
@@ -28,6 +31,7 @@
 #x{
 	position: relative;
     border-radius: 200px;
+    left: 99%;
     z-index: 2;
 }
 .icon{
@@ -56,10 +60,10 @@
 }
 #app{
     position: absolute;
-    top: 4%;
+    top: 0%;
     left: 0%;
 	width: 100%;
-    height: 96%;
+    height: 100%;
     display: none;
     border-color: white;
     background-color: black;
@@ -87,6 +91,12 @@ function notes(){
 function tasks(){
 	const app = document.getElementById("app");
     app.src = "apps/tasks.html";
+    app.style.display = "block";
+    document.getElementById('x').style.display = "block";
+}
+function pixle(){
+	const app = document.getElementById("app");
+    app.src = "https://www.oramainteractive.com/Pixelorama/";
     app.style.display = "block";
     document.getElementById('x').style.display = "block";
 }
