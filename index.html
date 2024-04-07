@@ -3,10 +3,11 @@
     <head>
         <title>Html Apps GUI</title>
     </head>
-    <body style="background-color: black;">
+    <body style="background-color: black;" id="body">
         <div id="topbar">
             <button id="x" onclick="closea()">X</button>
         </div>
+    <div id="parent">
         <div id="iembeder" class="icon" onclick="embed()">
             Embeder
         </div>
@@ -31,6 +32,10 @@
         <div id="packager" class="icon" onclick="spacebuggy()">
             Space buggy Game
         </div>
+        <div id="packager" class="icon" onclick="robotshooter()">
+            Robot Shooter
+        </div>
+    </div>
         <iframe id="app">
             
         </iframe>
@@ -84,56 +89,80 @@
 </style>
 <script>
   function embed(){
+    const parent = document.getElementById("parent");
 	const app = document.getElementById("app");
     app.src = "apps/embeder.html";
     app.style.display = "block";
+    parent.style.display = "none";
     document.getElementById('x').style.display = "block";
 }
 function turbo(){
+    const parent = document.getElementById("parent");
 	const app = document.getElementById("app");
     app.src = "apps/turbowarp-packager-standalone-1.10.0.html";
     app.style.display = "block";
     document.getElementById('x').style.display = "block";
 }
 function notes(){
+    const parent = document.getElementById("parent");
 	const app = document.getElementById("app");
     app.src = "apps/notes.html";
     app.style.display = "block";
+    parent.style.display = "none";
     document.getElementById('x').style.display = "block";
 }
 function tasks(){
+    const parent = document.getElementById("parent");
 	const app = document.getElementById("app");
     app.src = "apps/tasks.html";
     app.style.display = "block";
+    parent.style.display = "none";
     document.getElementById('x').style.display = "block";
 }
 function pixle(){
+    const parent = document.getElementById("parent");
 	const app = document.getElementById("app");
     app.src = "https://www.oramainteractive.com/Pixelorama/";
     app.style.display = "block";
+    parent.style.display = "none";
     document.getElementById('x').style.display = "block";
 }
 function canv(){
+    const parent = document.getElementById("parent");
 	const app = document.getElementById("app");
     app.src = "apps/Gotocanv.html";
     app.style.display = "block";
+    parent.style.display = "none";
     document.getElementById('x').style.display = "block";
 }
 function archer(){
+    const parent = document.getElementById("parent");
 	const app = document.getElementById("app");
     app.src = "https://playcanv.as/p/JERg21J8/";
     app.style.display = "block";
+    parent.style.display = "none";
     document.getElementById('x').style.display = "block";
 }
 function spacebuggy(){
+    const parent = document.getElementById("parent");
 	const app = document.getElementById("app");
     app.src = "https://playcanv.as/p/3RerJIcy/";
     app.style.display = "block";
+    parent.style.display = "none";
+    document.getElementById('x').style.display = "block";
+}
+function robotshooter(){
+    const parent = document.getElementById("parent");
+	const app = document.getElementById("app");
+    app.src = "https://playcanv.as/p/BAuoCOx6/";
+    app.style.display = "block";
+    parent.style.display = "none";
     document.getElementById('x').style.display = "block";
 }
 function closea() {
     var app = document.getElementById("app");
     app.style.display = "none";
+    const parent = document.getElementById("parent");
+    parent.style.display = "contents";
 }
-
 </script>
