@@ -25,6 +25,12 @@
         <div id="packager" class="icon" onclick="canv()">
             Play Canvas
         </div>
+        <div id="packager" class="icon" onclick="archer()">
+            Archer
+        </div>
+        <div id="packager" class="icon" onclick="spacebuggy()">
+            Space buggy Game
+        </div>
         <iframe id="app">
             
         </iframe>
@@ -113,8 +119,21 @@ function canv(){
     app.style.display = "block";
     document.getElementById('x').style.display = "block";
 }
+function archer(){
+	const app = document.getElementById("app");
+    app.src = "https://playcanv.as/p/JERg21J8/";
+    app.style.display = "block";
+    document.getElementById('x').style.display = "block";
+}
+function spacebuggy(){
+	const app = document.getElementById("app");
+    app.src = "https://playcanv.as/p/3RerJIcy/";
+    app.style.display = "block";
+    document.getElementById('x').style.display = "block";
+}
 function closea() {
     var app = document.getElementById("app");
     app.style.display = "none";
 }
+
 </script>
