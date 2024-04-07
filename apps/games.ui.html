@@ -1,10 +1,15 @@
 <html>
     <body>
-        <button id="x" onclick="location.href = 'index.html'">X</button>
-        <div class="icon" onclick="location.href = 'apps/notes.html' ">
+        <button id="x" onclick="closea()">X</button>
+    <div id="parent">
+        <div class="icon" onclick="archer()">
             Archer Game
         </div>
+    </div>
     </body>
+    <iframe id="app">
+            
+    </iframe>
 </html>
 <style>
     .icon{
@@ -25,14 +30,38 @@
         left: 98.5%;
         z-index: 2;
     }
+    #app{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+	    width: 100%;
+        height: 100%;
+        display: none;
+        border-color: white;
+        background-color: black;
+   }
 </style>
 <script type="text/javascript">
+    var close = 0;
     function archer(){
-    const parent = document.getElementById("parent");
-	const app = document.getElementById("app");
-    app.src = "apps/notes.html";
-    app.style.display = "block";
-    parent.style.display = "none";
-    document.getElementById('x').style.display = "block";
-}
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "https://playcanv.as/p/JERg21J8/";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function closea(){
+        if (close == 1) {
+            const parent = document.getElementById("parent");
+	        const app = document.getElementById("app");
+            app.style.display = "none";
+            parent.style.display = "contents";
+        }
+        if (close == 0){
+            location.href = "../index.html";
+        }
+        close = 0;
+    }
 </script>
