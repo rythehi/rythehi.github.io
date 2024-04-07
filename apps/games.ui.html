@@ -11,6 +11,15 @@
         <div class="icon" onclick="robotshooter()">
             Robot Shooter
         </div>
+        <div class="icon" onclick="gangdomstyle()">
+            Gangdomm Style
+        </div>
+        <div class="icon" onclick="towerclimb()">
+            Tower Climb
+        </div>
+        <div class="icon" onclick="clearg()">
+            Clear Game
+        </div>
     </div>
     </body>
     <iframe id="app">
@@ -74,6 +83,33 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "https://playcanv.as/p/BAuoCOx6/";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function gangdomstyle(){
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "https://playcanv.as/p/iCL6sxgF/";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function towerclimb(){
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "Tower_Climb.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function clearg(){
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "Clear.html";
         app.style.display = "block";
         parent.style.display = "none";
         document.getElementById('x').style.display = "block";
