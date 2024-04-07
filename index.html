@@ -22,6 +22,9 @@
         <div id="packager" class="icon" onclick="pixle()">
             Pixleorma Pixel Editor
         </div>
+        <div id="packager" class="icon" onclick="Canv()">
+            Play Canvas
+        </div>
         <iframe id="app">
             
         </iframe>
@@ -101,6 +104,12 @@ function tasks(){
 function pixle(){
 	const app = document.getElementById("app");
     app.src = "https://www.oramainteractive.com/Pixelorama/";
+    app.style.display = "block";
+    document.getElementById('x').style.display = "block";
+}
+function canv(){
+	const app = document.getElementById("app");
+    app.src = "https://playcanvas.com/#!";
     app.style.display = "block";
     document.getElementById('x').style.display = "block";
 }
