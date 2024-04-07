@@ -5,6 +5,12 @@
         <div class="icon" onclick="archer()">
             Archer Game
         </div>
+        <div class="icon" onclick="spacebuggy()">
+            Space Buggy
+        </div>
+        <div class="icon" onclick="robotshooter()">
+            Robot Shooter
+        </div>
     </div>
     </body>
     <iframe id="app">
@@ -47,6 +53,24 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "https://playcanv.as/p/JERg21J8/";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function spacebuggy(){
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "https://playcanv.as/p/3RerJIcy/";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function robotshooter(){
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "https://playcanv.as/p/BAuoCOx6/";
         app.style.display = "block";
         parent.style.display = "none";
         document.getElementById('x').style.display = "block";
