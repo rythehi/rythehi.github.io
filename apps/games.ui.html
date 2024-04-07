@@ -1,0 +1,38 @@
+<html>
+    <body>
+        <button id="x" onclick="location.href = 'index.html'">X</button>
+        <div class="icon" onclick="location.href = 'apps/notes.html' ">
+            Archer Game
+        </div>
+    </body>
+</html>
+<style>
+    .icon{
+        position: relative;
+        padding: 50px;
+        border-style: solid;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #5c5b59;
+        width: 60px;
+        margin: 10px;
+        display: inline-block;
+    }
+    #x{
+	    position: absolute;
+        border-radius: 200px;
+        top: 0px;
+        left: 98.5%;
+        z-index: 2;
+    }
+</style>
+<script type="text/javascript">
+    function archer(){
+    const parent = document.getElementById("parent");
+	const app = document.getElementById("app");
+    app.src = "apps/notes.html";
+    app.style.display = "block";
+    parent.style.display = "none";
+    document.getElementById('x').style.display = "block";
+}
+</script>
