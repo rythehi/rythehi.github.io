@@ -25,35 +25,37 @@
         </div>
     </div>
     </body>
-    <div class="subicon">
+    <div id="nparent">
+    <div class="subicon" onclick="ninja1()">
         1:The Magic Island
     </div>
-    <div class="subicon">
+    <div class="subicon" onclick="ninja2()">
         2:Crystal Caverns
     </div>
-    <div class="subicon">
+    <div class="subicon" onclick="ninja3()">
         3:Volcanic Temple
     </div>
-    <div class="subicon">
+    <div class="subicon" onclick="ninja4()">
         4:Aqua Mountian 
     </div>
-    <div class="subicon">
+    <div class="subicon" onclick="ninja5()">
         5:Desert Paradise
     </div>
-    <div class="subicon">
+    <div class="subicon" onclick="ninja6()">
         6:Ninjas Vally
     </div>
-    <div class="subicon">
+    <div class="subicon" onclick="ninja7()">
         7:Jungle trip
     </div>
-    <div class="subicon">
+    <div class="subicon" onclick="ninja8()">
         8:Gold World
     </div>
-    <div class="subicon">
+    <div class="subicon" onclick="ninja9()">
         9:Traveling The Castle
     </div>
-    <div class="subicon">
+    <div class="subicon" onclick="ninja10()">
         10:The Final
+    </div>
     </div>
     <iframe id="app">
             
@@ -95,8 +97,10 @@
         text-align: center;
         background-color: #5c5b59;
         width: 50%;
-        margin: auto;
-        display: none; 
+        margin: auto; 
+    }
+    #nparent{
+        display: none;
     }
     #x{
 	    position: absolute;
@@ -183,11 +187,98 @@
         close = 1;
     }
     function nseries(){
-        const buttons = document.getElementsByClassName("subicon");
-        for (let i = 0; i < buttons.length; i++) {
-        buttons[i].style.display = "block";
-        }
-        
+        const nparent = document.getElementById("nparent");
+        nparent.style.display = "contents";
+    }
+    function ninja1(){
+        const parent = document.getElementById("nparent");
+	    const app = document.getElementById("app");
+        app.src = "../ninja island/1.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function ninja2(){
+        const parent = document.getElementById("nparent");
+	    const app = document.getElementById("app");
+        app.src = "../ninja island/2.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function ninja3(){
+        const parent = document.getElementById("nparent");
+	    const app = document.getElementById("app");
+        app.src = "../ninja island/3.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function ninja4(){
+        const parent = document.getElementById("nparent");
+	    const app = document.getElementById("app");
+        app.src = "../ninja island/4.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function ninja5(){
+        const parent = document.getElementById("nparent");
+	    const app = document.getElementById("app");
+        app.src = "../ninja island/5.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function ninja6(){
+        const parent = document.getElementById("nparent");
+	    const app = document.getElementById("app");
+        app.src = "../ninja island/6.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function ninja7(){
+        const parent = document.getElementById("nparent");
+	    const app = document.getElementById("app");
+        app.src = "../ninja island/7.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function ninja8(){
+        const parent = document.getElementById("nparent");
+	    const app = document.getElementById("app");
+        app.src = "../ninja island/8.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function ninja9(){
+        const parent = document.getElementById("nparent");
+	    const app = document.getElementById("app");
+        app.src = "../ninja island/9.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function ninja10(){
+        const parent = document.getElementById("nparent");
+	    const app = document.getElementById("app");
+        app.src = "../ninja island/10.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
     }
     function closea(){
         if (close == 1) {
