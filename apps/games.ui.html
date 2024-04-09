@@ -20,13 +20,53 @@
         <div class="icon" onclick="clearg()">
             Clear Game
         </div>
+        <div class="icon" onclick="nseries()" id="ninjaisland">
+            Ninja island
+        </div>
     </div>
     </body>
+    <div class="subicon">
+        1:The Magic Island
+    </div>
+    <div class="subicon">
+        2:Crystal Caverns
+    </div>
+    <div class="subicon">
+        3:Volcanic Temple
+    </div>
+    <div class="subicon">
+        4:Aqua Mountian 
+    </div>
+    <div class="subicon">
+        5:Desert Paradise
+    </div>
+    <div class="subicon">
+        6:Ninjas Vally
+    </div>
+    <div class="subicon">
+        7:Jungle trip
+    </div>
+    <div class="subicon">
+        8:Gold World
+    </div>
+    <div class="subicon">
+        9:Traveling The Castle
+    </div>
+    <div class="subicon">
+        10:The Final
+    </div>
     <iframe id="app">
             
     </iframe>
 </html>
 <style>
+    #menu{
+        display: none;
+        position: absolute;
+        width: 50%;
+        height: 70%;
+        left: 25%;
+    }
     #body{
         background-color: black;
     }
@@ -38,8 +78,25 @@
         text-align: center;
         background-color: #5c5b59;
         width: 60px;
+        max-height: 60px;
         margin: 10px;
         display: inline-block;
+
+    }
+    .icon:hover{
+        cursor: pointer;
+    }
+    .subicon{
+        position: relative;
+        z-index: 2;
+        padding: 30px;
+        border-style: solid;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #5c5b59;
+        width: 50%;
+        margin: auto;
+        display: none; 
     }
     #x{
 	    position: absolute;
@@ -57,6 +114,16 @@
         display: none;
         border-color: white;
         background-color: black;
+   }
+   .nbutton{
+        display: none;
+        padding: 30px;
+        border-style: solid;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #5c5b59;
+        width: 60px;
+        margin: 10px;
    }
 </style>
 <script type="text/javascript">
@@ -115,12 +182,20 @@
         document.getElementById('x').style.display = "block";
         close = 1;
     }
+    function nseries(){
+        const buttons = document.getElementsByClassName("subicon");
+        for (let i = 0; i < buttons.length; i++) {
+        buttons[i].style.display = "block";
+        }
+        
+    }
     function closea(){
         if (close == 1) {
             const parent = document.getElementById("parent");
 	        const app = document.getElementById("app");
             app.style.display = "none";
             parent.style.display = "contents";
+            app.src = "";
         }
         if (close == 0){
             location.href = "../index.html";
