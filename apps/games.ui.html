@@ -26,6 +26,9 @@
         <div class="icon" onclick="Cashtycoon()">
             Cash Tycoon   
         </div>
+        <div class="icon" onclick="themetycoon()">
+            Theme Park Tycoon   
+        </div>
         <div class="icon" onclick="nseries()" id="ninjaisland">
             Ninja island
         </div>
@@ -205,6 +208,15 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "Cash Tycoon.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function themetycoon(){
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "Themetycoon.html";
         app.style.display = "block";
         parent.style.display = "none";
         document.getElementById('x').style.display = "block";
