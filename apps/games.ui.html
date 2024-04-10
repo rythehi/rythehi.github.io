@@ -2,35 +2,35 @@
     <body id="body">
         <button id="x" onclick="closea()">X</button>
     <div id="parent">
-        <div class="icon" onclick="archer()">
-            Archer Game
+        <div class="icon" onclick="archer()" id="archer">
+            <p style="color: white;">Archer Game</p>
         </div>
-        <div class="icon" onclick="spacebuggy()">
-            Space Buggy
+        <div class="icon" onclick="spacebuggy()" id="spacebuggy">
+            <p style="color: white;">Space Buggy</p>
         </div>
-        <div class="icon" onclick="robotshooter()">
-            Robot Shooter
+        <div class="icon" onclick="robotshooter()" id="robots">
+            <p style="color: white;">Robot Shooter</p>
         </div>
-        <div class="icon" onclick="gangdomstyle()">
-            Gangdomm Style
+        <div class="icon" onclick="gangdomstyle()" id="gangdomstyle">
+           <p style="color: white;">Gangdomm Style</p>
         </div>
-        <div class="icon" onclick="towerclimb()">
-            Tower Climb
+        <div class="icon" onclick="towerclimb()" id="towerclimb">
+            <p style="color: white;">Tower Climb</p>
         </div>
-        <div class="icon" onclick="clearg()">
-            Clear Game
+        <div class="icon" onclick="clearg()" id="clear">
+            <p style="color: white;">Clear Game</p>
         </div>
-        <div class="icon" onclick="oretycoon()">
-            Ore Tycoon 
+        <div class="icon" onclick="oretycoon()" id="oretycoon">
+            <p style="color: white;">Ore Tycoon</p> 
         </div>
-        <div class="icon" onclick="Cashtycoon()">
-            Cash Tycoon   
+        <div class="icon" onclick="Cashtycoon()" id="cashtycoon">
+            <p style="color: white;">Cash Tycoon</p>   
         </div>
-        <div class="icon" onclick="themetycoon()">
-            Theme Park Tycoon   
+        <div class="icon" onclick="themetycoon()" id="theme">
+            <p style="color: white;">Park Tycoon</p>   
         </div>
-        <div class="icon" onclick="nseries()" id="ninjaisland">
-            Ninja island
+        <div class="icon" onclick="nseries()" id="ninjaisland" id="nisland">
+            <p style="color: white;">Ninja island</p>
         </div>
     </div>
     </body>
@@ -71,6 +71,56 @@
     </iframe>
 </html>
 <style>
+    #archer:hover{
+        background-size: cover;
+        background-image: url(../animations/marcher.gif);
+        background-position: center;
+    }
+    #spacebuggy:hover{
+        background-size: cover;
+        background-image: url(../animations/spacebuggy.gif);
+        background-position: center;
+    }
+    #robots:hover{
+        background-size: cover;
+        background-image: url(../animations/robots.gif);
+        background-position: center;
+    }
+    #gangdomstyle:hover{
+        background-size: cover;
+        background-image: url(../animations/gangdom.gif);
+        background-position: center;
+    }
+    #towerclimb:hover{
+        background-size: cover;
+        background-image: url(../animations/towerclimb.gif);
+        background-position: center;
+    }
+    #clear:hover{
+        background-size: cover;
+        background-image: url(../animations/Clear.gif);
+        background-position: center;
+    }
+    #oretycoon:hover{
+        background-size: cover;
+        background-image: url(../animations/oretycoon.gif);
+        background-position: center;
+    }
+    #cashtycoon:hover{
+        background-size: cover;
+        background-image: url(../animations/cashtycoon.gif);
+        background-position: center;
+    }
+    #theme:hover{
+        background-size: cover;
+        background-image: url(../animations/themepark.gif);
+        background-position: center;
+    }
+    #nisland:hover{
+        background-size: cover;
+        background-image: url(../animations/ninjaisland.gif);
+        background-position: center;
+    }
     #menu{
         display: none;
         position: absolute;
@@ -87,6 +137,7 @@
         border-style: solid;
         border-radius: 20px;
         text-align: center;
+        vertical-align: center;
         background-color: #5c5b59;
         width: 60px;
         max-height: 60px;
@@ -107,6 +158,9 @@
         background-color: #5c5b59;
         width: 50%;
         margin: auto; 
+    }
+    .subicons:hover{
+        cursor: pointer;
     }
     #nparent{
         display: none;
