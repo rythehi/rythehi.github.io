@@ -20,6 +20,9 @@
         <div class="icon" onclick="clearg()">
             Clear Game
         </div>
+        <div class="icon" onclick="oretycoon()">
+            Ore Tycoon 
+        </div>
         <div class="icon" onclick="nseries()" id="ninjaisland">
             Ninja island
         </div>
@@ -181,6 +184,15 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "Clear.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function oretycoon(){
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "ORE Tycoon.html";
         app.style.display = "block";
         parent.style.display = "none";
         document.getElementById('x').style.display = "block";
