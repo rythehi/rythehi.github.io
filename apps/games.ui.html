@@ -44,6 +44,9 @@
         <div class="icon" onclick="Brawlers()" id="">
             <p style="color: white;">Brawlers Mutliplayer </p>
         </div>
+        <div class="icon" onclick="smashkarts()" id="">
+            <p style="color: white;">Smash Karts</p>
+        </div>
     </div>
     </body>
     <div id="nparent">
@@ -359,6 +362,17 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "Brawl.io.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function smashkarts(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "Smash Karts.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
