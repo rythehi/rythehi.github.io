@@ -32,6 +32,9 @@
         <div class="icon" onclick="dinogame()" id="dinogame">
             <p style="color: white;">Dino Game</p>
         </div>
+        <div class="icon" onclick="CandyClicker()" id="dinogame">
+            <p style="color: white;">Candy Clicker</p>
+        </div>
         <div class="icon" onclick="nseries()" id="ninjaisland" id="nisland">
             <p style="color: white;">Ninja island</p>
         </div>
@@ -317,6 +320,17 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "dinogame.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function CandyClicker(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "Candy Clicker.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
