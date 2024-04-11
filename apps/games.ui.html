@@ -29,6 +29,9 @@
         <div class="icon" onclick="themetycoon()" id="theme">
             <p style="color: white;">Park Tycoon</p>   
         </div>
+        <div class="icon" onclick="dinogame()" id="dinogame">
+            <p style="color: white;">Dino Game</p>
+        </div>
         <div class="icon" onclick="nseries()" id="ninjaisland" id="nisland">
             <p style="color: white;">Ninja island</p>
         </div>
@@ -76,25 +79,40 @@
         background-image: url(../animations/marcher.gif);
         background-position: center;
     }
+    #archer{
+        background-image: url(); 
+    }
     #spacebuggy:hover{
         background-size: cover;
         background-image: url(../animations/spacebuggy.gif);
         background-position: center;
+    }
+    #spacebuggy{
+        background-image: url();
     }
     #robots:hover{
         background-size: cover;
         background-image: url(../animations/robots.gif);
         background-position: center;
     }
+    #robots{
+        background-image: url();
+    }
     #gangdomstyle:hover{
         background-size: cover;
         background-image: url(../animations/gangdom.gif);
         background-position: center;
     }
+    #gandomstyle{
+        background-image: url();
+    }
     #towerclimb:hover{
         background-size: cover;
         background-image: url(../animations/towerclimb.gif);
         background-position: center;
+    }
+    #towerclimb{
+        background-image: url();
     }
     #clear:hover{
         background-size: cover;
@@ -288,6 +306,17 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "Themetycoon.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function dinogame(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "dinogame.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
