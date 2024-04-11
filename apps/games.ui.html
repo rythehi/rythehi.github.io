@@ -47,6 +47,9 @@
         <div class="icon" onclick="smashkarts()" id="">
             <p style="color: white;">Smash Karts</p>
         </div>
+        <div class="icon" onclick="among()" id="">
+            <p style="color: white;">Amongus Unblocked</p>
+        </div>
     </div>
     </body>
     <div id="nparent">
@@ -382,6 +385,17 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "Smash Karts.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function among(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "Amongus.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
