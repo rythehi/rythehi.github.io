@@ -2,41 +2,12 @@
     <body id="body">
         <button id="x" onclick="closea()">X</button>
     <div id="parent">
+        <center>
         <div class="icon" onclick="archer()" id="archer">
             <p style="color: white;">Archer Game</p>
         </div>
-        <div class="icon" onclick="spacebuggy()" id="spacebuggy">
-            <p style="color: white;">Space Buggy</p>
-        </div>
         <div class="icon" onclick="robotshooter()" id="robots">
             <p style="color: white;">Robot Shooter</p>
-        </div>
-        <div class="icon" onclick="gangdomstyle()" id="gangdomstyle">
-           <p style="color: white;">Gangdomm Style</p>
-        </div>
-        <div class="icon" onclick="towerclimb()" id="towerclimb">
-            <p style="color: white;">Tower Climb</p>
-        </div>
-        <div class="icon" onclick="clearg()" id="clear">
-            <p style="color: white;">Clear Game</p>
-        </div>
-        <div class="icon" onclick="oretycoon()" id="oretycoon">
-            <p style="color: white;">Ore Tycoon</p> 
-        </div>
-        <div class="icon" onclick="Cashtycoon()" id="cashtycoon">
-            <p style="color: white;">Cash Tycoon</p>   
-        </div>
-        <div class="icon" onclick="themetycoon()" id="theme">
-            <p style="color: white;">Park Tycoon</p>   
-        </div>
-        <div class="icon" onclick="dinogame()" id="dinogame">
-            <p style="color: white;">Dino Game</p>
-        </div>
-        <div class="icon" onclick="CandyClicker()" id="candyclicker">
-            <p style="color: white;">Candy Clicker</p>
-        </div>
-        <div class="icon" onclick="nseries()" id="nisland">
-            <p style="color: white;">Ninja island</p>
         </div>
         <div class="icon" onclick="Tunrun()" id="tunnelrun">
             <p style="color: white;">Tunnel Run</p>
@@ -46,63 +17,10 @@
         </div>
         <div class="icon" onclick="smashkarts()" id="smashkarts">
             <p style="color: white;">Smash Karts</p>
-        </div>
-        <div class="icon" onclick="among()" id="amungus">
-            <p style="color: white;">Amongus Unblocked</p>
-        </div>
-        <div class="icon" onclick="Dcity()" id="">
-            <p style="color: white;">3D<br>City</p>
+        </center>
         </div>
     </div>
     </body>
-    <div id="sidebar">
-        <center>
-        <div class="sideicon" onclick="location.href = '../gamepages/tycoons.html'">
-            Tycoon Games
-        </div>
-        <div class="sideicon" onclick="location.href = '../gamepages/shooters.html'">
-            Shooter Games
-        </div>
-        <div class="sideicon" onclick="location.href = '../gamepages/infinite.html'">
-            Infinite Games
-        </div>
-        <div class="sideicon">
-            Platformers
-        </div>
-        </center>
-    </div>
-    <div id="nparent">
-    <div class="subicon" onclick="ninja1()">
-        1:The Magic Island
-    </div>
-    <div class="subicon" onclick="ninja2()">
-        2:Crystal Caverns
-    </div>
-    <div class="subicon" onclick="ninja3()">
-        3:Volcanic Temple
-    </div>
-    <div class="subicon" onclick="ninja4()">
-        4:Aqua Mountian 
-    </div>
-    <div class="subicon" onclick="ninja5()">
-        5:Desert Paradise
-    </div>
-    <div class="subicon" onclick="ninja6()">
-        6:Ninjas Vally
-    </div>
-    <div class="subicon" onclick="ninja7()">
-        7:Jungle trip
-    </div>
-    <div class="subicon" onclick="ninja8()">
-        8:Gold World
-    </div>
-    <div class="subicon" onclick="ninja9()">
-        9:Traveling The Castle
-    </div>
-    <div class="subicon" onclick="ninja10()">
-        10:The Final
-    </div>
-    </div>
     <iframe id="app">
             
     </iframe>
@@ -127,7 +45,7 @@
         position: absolute;
         right: 0px;
         width: 33%;
-        min-height: 100%;
+        height: 100%;
     }
     #archer:hover{
         background-size: cover;
@@ -265,9 +183,6 @@
     .subicons:hover{
         cursor: pointer;
     }
-    #nparent{
-        display: none;
-    }
     #x{
 	    position: absolute;
         border-radius: 200px;
@@ -294,14 +209,6 @@
         background-color: #5c5b59;
         width: 60px;
         margin: 10px;
-   }
-   #parent{
-    border-style: solid;
-    border-color: white;
-    position: absolute;
-    width: 65%;
-    min-height: 100%;
-    left: 0px; 
    }
    /* Hide horizontal scrollbar */
     body::-webkit-scrollbar {
