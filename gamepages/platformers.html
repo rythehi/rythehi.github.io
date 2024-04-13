@@ -2,75 +2,13 @@
     <body id="body">
         <button id="x" onclick="closea()">X</button>
     <div id="parent">
-        <div class="icon" onclick="archer()" id="archer">
-            <p style="color: white;">Archer Game</p>
-        </div>
-        <div class="icon" onclick="spacebuggy()" id="spacebuggy">
-            <p style="color: white;">Space Buggy</p>
-        </div>
-        <div class="icon" onclick="robotshooter()" id="robots">
-            <p style="color: white;">Robot Shooter</p>
-        </div>
-        <div class="icon" onclick="gangdomstyle()" id="gangdomstyle">
-           <p style="color: white;">Gangdomm Style</p>
-        </div>
-        <div class="icon" onclick="towerclimb()" id="towerclimb">
-            <p style="color: white;">Tower Climb</p>
-        </div>
-        <div class="icon" onclick="clearg()" id="clear">
-            <p style="color: white;">Clear Game</p>
-        </div>
-        <div class="icon" onclick="oretycoon()" id="oretycoon">
-            <p style="color: white;">Ore Tycoon</p> 
-        </div>
-        <div class="icon" onclick="Cashtycoon()" id="cashtycoon">
-            <p style="color: white;">Cash Tycoon</p>   
-        </div>
-        <div class="icon" onclick="themetycoon()" id="theme">
-            <p style="color: white;">Park Tycoon</p>   
-        </div>
-        <div class="icon" onclick="dinogame()" id="dinogame">
-            <p style="color: white;">Dino Game</p>
-        </div>
-        <div class="icon" onclick="CandyClicker()" id="candyclicker">
-            <p style="color: white;">Candy Clicker</p>
-        </div>
+        <center>
         <div class="icon" onclick="nseries()" id="nisland">
             <p style="color: white;">Ninja island</p>
         </div>
-        <div class="icon" onclick="Tunrun()" id="tunnelrun">
-            <p style="color: white;">Tunnel Run</p>
-        </div>
-        <div class="icon" onclick="Brawlers()" id="brawlers">
-            <p style="color: white;">Brawlers Mutliplayer </p>
-        </div>
-        <div class="icon" onclick="smashkarts()" id="smashkarts">
-            <p style="color: white;">Smash Karts</p>
-        </div>
-        <div class="icon" onclick="among()" id="amungus">
-            <p style="color: white;">Amongus Unblocked</p>
-        </div>
-        <div class="icon" onclick="Dcity()" id="">
-            <p style="color: white;">3D<br>City</p>
-        </div>
-    </div>
-    </body>
-    <div id="sidebar">
-        <center>
-        <div class="sideicon" onclick="location.href = '../gamepages/tycoons.html'">
-            Tycoon Games
-        </div>
-        <div class="sideicon" onclick="location.href = '../gamepages/shooters.html'">
-            Shooter Games
-        </div>
-        <div class="sideicon" onclick="location.href = '../gamepages/infinite.html'">
-            Infinite Games
-        </div>
-        <div class="sideicon">
-            Platformers
-        </div>
         </center>
     </div>
+    </body>
     <div id="nparent">
     <div class="subicon" onclick="ninja1()">
         1:The Magic Island
@@ -295,14 +233,6 @@
         width: 60px;
         margin: 10px;
    }
-   #parent{
-    border-style: solid;
-    border-color: white;
-    position: absolute;
-    width: 65%;
-    min-height: 100%;
-    left: 0px; 
-   }
    /* Hide horizontal scrollbar */
     body::-webkit-scrollbar {
         display: none;
@@ -374,7 +304,7 @@
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
-        app.src = "Clear.html";
+        app.src = "../games/Clear.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
@@ -385,7 +315,7 @@
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
-        app.src = "ORE Tycoon.html";
+        app.src = "../games/ORE Tycoon.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
@@ -396,7 +326,7 @@
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
-        app.src = "Cash Tycoon.html";
+        app.src = "../games/Cash Tycoon.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
@@ -407,7 +337,7 @@
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
-        app.src = "Themetycoon.html";
+        app.src = "../games/Themetycoon.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
@@ -418,7 +348,7 @@
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
-        app.src = "dinogame.html";
+        app.src = "../games/dinogame.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
@@ -429,7 +359,7 @@
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
-        app.src = "Candy Clicker.html";
+        app.src = "../games/Candy Clicker.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
@@ -440,7 +370,7 @@
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
-        app.src = "Tunnel Runner 3D.html";
+        app.src = "../games/Tunnel Runner 3D.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
@@ -451,7 +381,7 @@
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
-        app.src = "Brawl.io.html";
+        app.src = "../games/Brawl.io.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
@@ -462,7 +392,7 @@
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
-        app.src = "Smash Karts.html";
+        app.src = "../games/Smash Karts.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
