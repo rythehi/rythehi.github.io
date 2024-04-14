@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Html Apps GUI</title>
+        <title>Apps or Games?</title>
     </head>
     <body style="background-color: black;" id="body">
         <div id="topbar">
@@ -136,4 +136,13 @@ function closea() {
     parent.style.display = "contents";
     app.src = "";
 }
+</script>
+<script>
+    window.onload = function() {
+        aud();
+    };
+    function aud(){
+        const aud = document.getElementById("audio");
+        aud.play();
+    }
 </script>
