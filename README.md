@@ -15,4 +15,9 @@ These are not all of them just some fun ones.
 * City Builder
 * Tower Climb
 
+### What Is Coming
+
+* More Games Always More Games
+* Better Main Page Organization
+
 [Go To Website](rythehi.github.io)
