@@ -20,4 +20,4 @@ These are not all of them just some fun ones.
 * More Games Always More Games
 * Better Main Page Organization
 
-[Go To Website](rythehi.github.io)
+[Go To Website](https//:rythehi.github.io)
