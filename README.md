@@ -41,5 +41,21 @@ MINI Games
 * Robot Clash (Soory Really don'y know what it is called)
 * Master Archer
 * Brawlers Multiplayer
+* Master Archer
 
 ## Tycoons
+* Ore Tycoon
+* Cash Tycoon
+* Park Tycoon
+* Candy Clicker
+* City Builder
+
+## Infinite Runners
+* Space Buggy
+* Tower Climb
+* Clear Game 
+* Dino Game
+* Tunnel Run
+* Flappy Bird
+* Tunnel Run
+*
