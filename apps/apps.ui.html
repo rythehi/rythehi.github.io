@@ -22,15 +22,19 @@
     <div id="parent">
         <div class="icon" onclick="turbo()" id="turbo">
             <p style="color: white;">Turbowarp<br>Packager</p>
+            <div id="turbodis">The turbowarp packager is used to convert Scratch Projects (sb3s) <br> to html or windows/mac app</div>
         </div>
         <div class="icon" onclick="embeder()" id="embeder">
             <p style="color: white;">Youtube<br>Embeder</p>
+            <div id="embederdis">This is a app to embed videos to watch youtube<br>even when goguardian is blocking it PLEASE USE RESPONCIBLY</div>
         </div>
         <div class="icon" onclick="sticky()" id="notes">
             <p style="color: white;">Stickie<br>Notes</p>
+            <div id="notesdis">Stickie Notes app for chromebooks when you save a note rembember the name of it to open again</div>
         </div>
         <div class="icon" onclick="tasks()" id="tasks">
             <p style="color: white;">Tasks<br>App</p>
+            <div id="tasksdis">simple tasks app for busy people or homework</div>
         </div>
     </div>
     </body>
@@ -62,6 +66,46 @@
     .icon:hover{
         cursor: pointer;
     }
+    #turbodis{
+        position: relative;
+        left: 140px;
+        top: -118px;
+        display: none;
+        height: 160px;
+        width: 500px;
+        background-color: #5c5b59;
+        border-radius: 20px;
+    }
+    #embederdis{
+        position: relative;
+        left: 140px;
+        top: -118px;
+        display: none;
+        height: 160px;
+        width: 500px;
+        background-color: #5c5b59;
+        border-radius: 20px;
+    }
+    #notesdis{
+        position: relative;
+        left: 140px;
+        top: -118px;
+        display: none;
+        height: 160px;
+        width: 500px;
+        background-color: #5c5b59;
+        border-radius: 20px;
+    }
+    #tasksdis{
+        position: relative;
+        left: 140px;
+        top: -118px;
+        display: none;
+        height: 160px;
+        width: 500px;
+        background-color: #5c5b59;
+        border-radius: 20px;
+    }
     #x{
 	    position: absolute;
         border-radius: 200px;
@@ -86,6 +130,17 @@
     /* Hide vertical scrollbar */
     body {
         overflow: hidden;
+    }
+    @keyframes popout{
+        0%{
+            position: relative;
+            z-index: -1;
+            top: -118px;
+            left: 0px;
+        }
+        100%{
+            left: 140px;
+        }
     }
 </style>
 <script type="text/javascript">
@@ -145,9 +200,51 @@
     }
 </script>
 <script id="hover code">
-    document.getElementById("turbo").addEventListener("mouseover", turbohover())
+    window.onload = function() {
+        ;
+        document.getElementById("turbo").addEventListener("mouseover", turbohover);
+        document.getElementById("turbo").addEventListener("mouseout", turboout);
+        document.getElementById("embeder").addEventListener("mouseover", embederhover);
+        document.getElementById("embeder").addEventListener("mouseout", embederout);
+        document.getElementById("notes").addEventListener("mouseover", noteshover);
+        document.getElementById("notes").addEventListener("mouseout", notesout);
+        document.getElementById("tasks").addEventListener("mouseover", taskshover);
+        document.getElementById("tasks").addEventListener("mouseout", tasksout);
+    };
     function turbohover(){
-        alert("YAAAAA");
+        const turbo =  document.getElementById("turbodis");
+        turbo.style.display = "block";
+        turbo.style.animation = "popout .5s ease 1";
     }
-
+    function turboout(){
+        const turbo =  document.getElementById("turbodis");
+        turbo.style.display = "none";
+    }
+    function embederhover(){
+        const turbo =  document.getElementById("embederdis");
+        turbo.style.display = "block";
+        turbo.style.animation = "popout .5s ease 1";
+    }
+    function embederout(){
+        const turbo =  document.getElementById("embederdis");
+        turbo.style.display = "none";
+    }
+    function noteshover(){
+        const turbo =  document.getElementById("notesdis");
+        turbo.style.display = "block";
+        turbo.style.animation = "popout .5s ease 1";
+    }
+    function notesout(){
+        const turbo =  document.getElementById("notesdis");
+        turbo.style.display = "none";
+    }
+    function taskshover(){
+        const turbo =  document.getElementById("tasksdis");
+        turbo.style.display = "block";
+        turbo.style.animation = "popout .5s ease 1";
+    }
+    function tasksout(){
+        const turbo =  document.getElementById("tasksdis");
+        turbo.style.display = "none";
+    }
 </script>
