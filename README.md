@@ -34,7 +34,7 @@ PLease Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 
 [Tycoons](#Tycoons)
 
-MINI Games
+[Infinite-Runners](#infinite-runners)
 
 ## Shooters 
 * Smash Karts
@@ -58,4 +58,3 @@ MINI Games
 * Tunnel Run
 * Flappy Bird
 * Tunnel Run
-*
