@@ -18,11 +18,8 @@
         <div class="icon" onclick="Tunrun()" id="tunnelrun">
             <p style="color: white;">Tunnel Run</p>
         </div>
-        <div class="icon" onclick="among()" id="amungus">
-            <p style="color: white;">Amongus Unblocked</p>
-        </div>
-        <div class="icon" onclick="Dcity()" id="">
-            <p style="color: white;">3D<br>City</p>
+        <div class="icon" onclick="flappy()" id="">
+            <p style="color: white;">Flappy Bird</p>
         </div>
     </div>
      </center>
@@ -401,6 +398,17 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "https://lo-th.github.io/3d.city/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function flappy(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../games/flappy bird.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";

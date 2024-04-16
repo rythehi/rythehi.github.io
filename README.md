@@ -30,7 +30,7 @@ PLease Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 * UI is not scaled right for small screens ^FIXED^
 
 # games
-[Shooters](#Shooters)
+[Shooters](#shooters)
 
 [Tycoons](#Tycoons)
 
