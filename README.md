@@ -1,10 +1,14 @@
 # Unblocked Games
 
+# skip to the part you want
+[Recent Changes](#rc) [games list](#games) [upcoming](#what-is-coming)
+
 ##  **[!]important[!]**
 
  On Some computer screens (Mostly chromebooks) will render cramped and it wont work right, This will be fixed by tonight
  
 ### Recent changes 
+<a id="rc"></a>
 * Amongus Loads Faster
 * Added More Icon Images On Hover
 * Home Page Split Into Apps And Games there are some [bugs](#bugs)
