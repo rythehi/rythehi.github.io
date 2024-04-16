@@ -13,15 +13,6 @@ PLease Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 * Added More Icon Images On Hover
 * Home Page Split Into Apps And Games there are some [bugs](#bugs)
 
-### Games
-
-These are not all of them just some fun ones.
-
-* Smash Karts
-* Amongus
-* Dino No Internet Game
-* City Builder
-* Tower Climb
 
 ### What Is Coming
 
@@ -37,3 +28,18 @@ These are not all of them just some fun ones.
 [Report Bugs](https://github.com/rythehi/rythehi.github.io/discussions/1)
 <a id="bugs"></a>
 * UI is not scaled right for small screens ^FIXED^
+
+# games
+[Shooters](#Shooters)
+
+[Tycoons](#Tycoons)
+
+MINI Games
+
+## Shooters 
+* Smash Karts
+* Robot Clash (Soory Really don'y know what it is called)
+* Master Archer
+* Brawlers Multiplayer
+
+## Tycoons
