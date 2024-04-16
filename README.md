@@ -5,7 +5,7 @@
 
 ##  **[!]important[!]**
 
- On Some computer screens (Mostly chromebooks) will render cramped and it wont work right, This will be fixed by tonight
+PLease Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discussions/1)
  
 ### Recent changes 
 <a id="rc"></a>
