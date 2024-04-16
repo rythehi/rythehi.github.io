@@ -32,4 +32,4 @@ These are not all of them just some fun ones.
 
 [Report Bugs](https://github.com/rythehi/rythehi.github.io/discussions/1)
 <a id="bugs"></a>
-* UI is not scaled right for small screens 
+* UI is not scaled right for small screens ^FIXED^
