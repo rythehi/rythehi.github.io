@@ -1,5 +1,6 @@
 # Unblocked Games
-
+# **[!]important[!]**
+ On Some computer screens (Mostly chromebooks) will render cramped and it wont work right, This will be fixed by tonight
 ### Recent changes
 
 * Amonus Loads Faster
