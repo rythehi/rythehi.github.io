@@ -21,7 +21,7 @@ PLease Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 * I need to add new games to categories 
 
 [Go rythehi.github.io](https://rythehi.github.io)       
-[Mirror Website](http://sbettergames.vercel.app)
+[Mirror Website](http://bettergames.vercel.app)
 
 
 ## Bugs 
