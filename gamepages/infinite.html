@@ -21,6 +21,9 @@
         <div class="icon" onclick="flappy()" id="">
             <p style="color: white;">Flappy Bird</p>
         </div>
+        <div class="icon" onclick="fortyeight()" id="fortyeight">
+            <p style="color: white;">20<br>48</p>
+        </div>
     </div>
      </center>
     </body>
@@ -29,6 +32,11 @@
     </iframe>
 </html>
 <style>
+     #fortyeight:hover{
+        background-size: cover;
+        background-image: url(../animations/2048.png);
+        background-position: center;
+    }
     .sideicon{
         position: relative;
         border-radius: 20px;
@@ -228,6 +236,17 @@
 </style>
 <script type="text/javascript">
     var close = 0;
+    function fortyeight(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../5games/html5/2048/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
     function archer(){
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");

@@ -77,6 +77,12 @@
         <div class="icon" onclick="robotag()" id="robotag">
             <p style="color: white;">Robot<br>Tag</p>
         </div>
+        <div class="icon" onclick="fortyeight()" id="fortyeight">
+            <p style="color: white;">20<br>48</p>
+        </div>
+        <div class="icon" onclick="artspace()" id="artspace">
+            <p style="color: white;">Ascii<br>Space</p>
+        </div>
     </div>
     </body>
     <div id="sidebar">
@@ -654,5 +660,36 @@
             location.href = "../index.html";
         }
         close = 0;
+    }
+</script>
+<style>
+    #fortyeight:hover{
+        background-size: cover;
+        background-image: url(../animations/2048.png);
+        background-position: center;
+    }
+</style>
+<script>
+    function fortyeight(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../5games/html5/2048/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function artspace(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../5games/html5/asciispace/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
     }
 </script>
