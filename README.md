@@ -20,7 +20,7 @@ PLease Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 * Game Icon animations
 * I need to add new games to categories 
 
-[Go rythehi.github.io](https://rythehi.github.io) [Mirror Website](bettergames.vercel.app)
+[Go rythehi.github.io](https://rythehi.github.io)       [Mirror Website](bettergames.vercel.app)
 
 
 ## Bugs 
