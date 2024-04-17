@@ -83,6 +83,9 @@
         <div class="icon" onclick="artspace()" id="artspace">
             <p style="color: white;">Ascii<br>Space</p>
         </div>
+        <div class="icon" onclick="astray()" id="astray">
+            <p style="color: white;">Astray<br>Maze</p>
+        </div>
     </div>
     </body>
     <div id="sidebar">
@@ -668,6 +671,16 @@
         background-image: url(../animations/2048.png);
         background-position: center;
     }
+    #artspace:hover{
+        background-size: cover;
+        background-image: url(../animations/artspace.png);
+        background-position: center;
+    }
+    #astray:hover{
+        background-size: cover;
+        background-image: url(../animations/astray.png);
+        background-position: center;
+    }
 </style>
 <script>
     function fortyeight(){
@@ -686,6 +699,17 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "../5games/html5/asciispace/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function astray(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../5games/html5/astray/index.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";

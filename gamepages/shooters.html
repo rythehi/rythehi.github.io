@@ -17,8 +17,11 @@
         </div>
         <div class="icon" onclick="smashkarts()" id="smashkarts">
             <p style="color: white;">Smash Karts</p>
-        </center>
         </div>
+        <div class="icon" onclick="artspace()" id="artspace">
+            <p style="color: white;">Ascii<br>Space</p>
+        </div>
+        </center>
     </div>
     </body>
     <iframe id="app">
@@ -26,6 +29,11 @@
     </iframe>
 </html>
 <style>
+    #artspace:hover{
+        background-size: cover;
+        background-image: url(../animations/artspace.png);
+        background-position: center;
+    }
     .sideicon{
         position: relative;
         border-radius: 20px;
@@ -222,6 +230,17 @@
 </style>
 <script type="text/javascript">
     var close = 0;
+    function artspace(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../5games/html5/asciispace/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
     function archer(){
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");

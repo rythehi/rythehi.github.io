@@ -24,6 +24,9 @@
         <div class="icon" onclick="fortyeight()" id="fortyeight">
             <p style="color: white;">20<br>48</p>
         </div>
+        <div class="icon" onclick="astray()" id="astray">
+            <p style="color: white;">Astray<br>Maze</p>
+        </div>
     </div>
      </center>
     </body>
@@ -32,6 +35,11 @@
     </iframe>
 </html>
 <style>
+    #astray:hover{
+        background-size: cover;
+        background-image: url(../animations/astray.png);
+        background-position: center;
+    }
      #fortyeight:hover{
         background-size: cover;
         background-image: url(../animations/2048.png);
@@ -236,6 +244,17 @@
 </style>
 <script type="text/javascript">
     var close = 0;
+    function astray(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../5games/html5/astray/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
     function fortyeight(){
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");
