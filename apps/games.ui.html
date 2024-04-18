@@ -86,8 +86,26 @@
         <div class="icon" onclick="astray()" id="astray">
             <p style="color: white;">Astray<br>Maze</p>
         </div>
-        <div class="icon" onclick="backcountry()" id="astray">
+        <div class="icon" onclick="backcountry()" id="backcountry">
             <p style="color: white;">Back<br>Country</p>
+        </div>
+        <div class="icon" onclick="basketballstars()" id="basketballstars">
+            <p style="color: white;">Basketball<br>Stars</p>
+        </div>
+        <div class="icon" onclick="blackholesquare()" id="blackholesquare">
+            <p style="color: white;">Blockhole<br>Square</p>
+        </div>
+        <div class="icon" onclick="bounceback()" id="bounceback">
+            <p style="color: white;">Bounce<br>Back</p>
+        </div>
+        <div class="icon" onclick="breakout()" id="breakout">
+            <p style="color: white;">ATARI<br>BREAKOUT</p>
+        </div>
+        <div class="icon" onclick="chess()" id="chess">
+            <p style="color: white;">Singleplayer<br>Chess</p>
+        </div>
+        <div class="icon" onclick="chess()" id="chess">
+            <p style="color: white;">Cookie<br>Clicker</p>
         </div>
     </div>
     </body>
@@ -684,6 +702,37 @@
         background-image: url(../animations/astray.png);
         background-position: center;
     }
+    /*NOT SORTED*/
+    #backcountry:hover{
+        background-size: cover;
+        background-image: url(../animations/backcountry.png);
+        background-position: center;
+    }
+    #basketballstars:hover{
+        background-size: cover;
+        background-image: url(../animations/Basketballstars.png);
+        background-position: center;
+    }
+    #blackholesquare:hover{
+        background-size: cover;
+        background-image: url(../animations/blackholesquare.png);
+        background-position: center;
+    }
+    #bounceback:hover{
+        background-size: cover;
+        background-image: url(../animations/bounceback.png);
+        background-position: center;
+    }
+    #breakout:hover{
+        background-size: cover;
+        background-image: url(../animations/breakout.png);
+        background-position: center;
+    }
+    #chess:hover{
+        background-size: cover;
+        background-image: url(../animations/chess.png);
+        background-position: center;
+    }
 </style>
 <script>
     function fortyeight(){
@@ -713,6 +762,72 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "../gamepages/htmlgames/html5/astray/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function backcountry(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/backcountry/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function basketballstars(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/basketballstars/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function blackholesquare(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/blackholesquare/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function bounceback(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/bounceback/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function breakout(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/breakout/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function chess(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/chess/index.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
