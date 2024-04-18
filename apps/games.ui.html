@@ -110,6 +110,9 @@
         <div class="icon" onclick="crossyroad()" id="crossyroad">
             <p style="color: white;">Crossy<br>Road</p>
         </div>
+        <div class="icon" onclick="dogeminer()" id="dogeminer">
+            <p style="color: white;">Doge<br>Miner</p>
+        </div>
     </div>
     </body>
     <div id="sidebar">
@@ -746,6 +749,11 @@
         background-image: url(../animations/crossyroad.png);
         background-position: center;
     }
+    #dogeminer:hover{
+        background-size: cover;
+        background-image: url(../animations/dogeminer.png);
+        background-position: center;
+    }
 </style>
 <script>
     function fortyeight(){
@@ -863,6 +871,17 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "../gamepages/htmlgames/html5/crossyroad/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function dogeminer(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/dogeminer/index.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
