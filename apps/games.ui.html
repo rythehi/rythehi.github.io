@@ -170,6 +170,18 @@
         <div class="icon" onclick="sandgame()" id="sandgame">
             <p style="color: white;">Sand<br>Game</p>
         </div>
+        <div class="icon" onclick="pushback()" id="pushback">
+            <p style="color: white;">Push<br>Back</p>
+        </div>
+        <div class="icon" onclick="q1()" id="q1">
+            <p style="color: white;">q1k3<br>(shooter)</p>
+        </div>
+        <div class="icon" onclick="racer()" id="racer">
+            <p style="color: white;">Pixle<br>Racer</p>
+        </div>
+        <div class="icon" onclick="retrobowl()" id="retrobowl">
+            <p style="color: white;">Retro<br>Bowl</p>
+        </div>
     </div>
     </body>
     <div id="sidebar">
@@ -1007,6 +1019,26 @@
         background-image: url(../animations/sandgame.png);
         background-position: center;
     }
+    #pushback:hover{
+        background-size: cover;
+        background-image: url(../animations/pushback.png);
+        background-position: center;
+    }
+    #q1:hover{
+        background-size: cover;
+        background-image: url(../animations/q1k3.png);
+        background-position: center;
+    }
+    #racer:hover{
+        background-size: cover;
+        background-image: url(../animations/racer.png);
+        background-position: center;
+    }
+    #retrobowl:hover{
+        background-size: cover;
+        background-image: url(../animations/retrobowl.png);
+        background-position: center;
+    }
 </style>
 <script>
     function ducklife(){
@@ -1212,6 +1244,50 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "../gamepages/htmlgames/html5/physicsplayground/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function pushback(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/pushback/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function q1(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/q1k3/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function racer(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/racer/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function retrobowl(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/retrobowl/index.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
