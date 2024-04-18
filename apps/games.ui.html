@@ -128,6 +128,18 @@
         <div class="icon" onclick="ducklife5()" id="ducklife">
             <p style="color: white;">Duck<br>Life5</p>
         </div>
+        <div class="icon" onclick="edgesurf()" id="edgesurf">
+            <p style="color: white;">Edge<br>Surf</p>
+        </div>
+        <div class="icon" onclick="elasticmorty()" id="elasticmorty">
+            <p style="color: white;">Elastic<br>Morty</p>
+        </div>
+        <div class="icon" onclick="evilglitch()" id="evilglitch">
+            <p style="color: white;">Evil<br>Glitch</p>
+        </div>
+        <div class="icon" onclick="fireboyandwatergirl()" id="fireboyandwatergirl">
+            <p style="color: white;">Fireboy<br>Watergirl1</p>
+        </div>
     </div>
     </body>
     <div id="sidebar">
@@ -910,6 +922,26 @@
         background-image: url(../animations/ducklife.png);
         background-position: center;
     }
+    #edgesurf:hover{
+        background-size: cover;
+        background-image: url(../animations/edgesurf.png);
+        background-position: center;
+    }
+    #elasticmorty:hover{
+        background-size: cover;
+        background-image: url(../animations/elasticmorty.png);
+        background-position: center;
+    }
+    #evilglitch:hover{
+        background-size: cover;
+        background-image: url(../animations/evilglitch.png);
+        background-position: center;
+    }
+    #fireboyandwatergirl:hover{
+        background-size: cover;
+        background-image: url(../animations/fireboyandgirl1.png);
+        background-position: center;
+    }
 </style>
 <script>
     function ducklife(){
@@ -961,6 +993,50 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "../gamepages/htmlgames/html5/ducklife5/play/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function edgesurf(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/edge-surf/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function elasticmorty(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/elasticmorty/play/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function evilglitch(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/evilglitch/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function fireboyandwatergirl(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/fireboyandwatergirl/play/index.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
