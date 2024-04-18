@@ -104,7 +104,7 @@
         <div class="icon" onclick="chess()" id="chess">
             <p style="color: white;">Singleplayer<br>Chess</p>
         </div>
-        <div class="icon" onclick="chess()" id="chess">
+        <div class="icon" onclick="cookieclicker()" id="cookieclicker">
             <p style="color: white;">Cookie<br>Clicker</p>
         </div>
     </div>
@@ -733,6 +733,11 @@
         background-image: url(../animations/chess.png);
         background-position: center;
     }
+    #cookieclicker:hover{
+        background-size: cover;
+        background-image: url(../animations/cookieclicker.png);
+        background-position: center;
+    }
 </style>
 <script>
     function fortyeight(){
@@ -828,6 +833,17 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "../gamepages/htmlgames/html5/chess/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function cookieclicker(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/cookieclicker/index.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
