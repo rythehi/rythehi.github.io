@@ -182,10 +182,41 @@
         <div class="icon" onclick="retrobowl()" id="retrobowl">
             <p style="color: white;">Retro<br>Bowl</p>
         </div>
+        <div class="icon" onclick="rooftopsniper()" id="rooftopsniper">
+            <p style="color: white;">RoofTop<br>Sniper</p>
+        </div>
+        <div class="icon" onclick="run3()" id="run3">
+            <p style="color: white;">Run<br>3</p>
+        </div>
+        <div class="icon" onclick="stack()" id="stack">
+            <p style="color: white;">Stack<br>Game</p>
+        </div>
+        <div class="icon" onclick="stacktower()" id="stacktower">
+            <p style="color: white;">Stack<br>Tower</p>
+        </div>
+        <div class="icon" onclick="underrun()" id="underrun">
+            <p style="color: white;">Under<br>Run</p>
+        </div>
+        <div class="icon" onclick="vex3()" id="vex">
+            <p style="color: white;">vex<br>3</p>
+        </div>
+        <div class="icon" onclick="vex4()" id="vex">
+            <p style="color: white;">vex<br>4</p>
+        </div>
+        <div class="icon" onclick="vex5()" id="vex">
+            <p style="color: white;">vex<br>5</p>
+        </div>
+        <div class="icon" onclick="vex6()" id="vex">
+            <p style="color: white;">vex<br>6</p>
+        </div>
+        <div class="icon" onclick="retro()" id="retro">
+            <p style="color: white;">Web<br>Retro</p>
+        </div>
     </div>
     </body>
     <div id="sidebar">
         <center>
+            <h1 style="color: white;">Recources/Catagories</h1>
         <div class="sideicon" onclick="location.href = '../gamepages/tycoons.html'">
             Tycoon Games
         </div>
@@ -197,6 +228,9 @@
         </div>
         <div class="sideicon" onclick="location.href = '../gamepages/platformers.html'">
             Platformers
+        </div>
+        <div class="sideicon" onclick="location.href = '../gamepages/retro.html'">
+            Don't Know How To Use Webretro? Click here/ and downloads
         </div>
         </center>
     </div>
@@ -1039,6 +1073,41 @@
         background-image: url(../animations/retrobowl.png);
         background-position: center;
     }
+    #rooftopsniper:hover{
+        background-size: cover;
+        background-image: url(../animations/rooftopsniper.png);
+        background-position: center;
+    }
+    #run3:hover{
+        background-size: cover;
+        background-image: url(../animations/run3.png);
+        background-position: center;
+    }
+    #stack:hover{
+        background-size: cover;
+        background-image: url(../animations/stack.png);
+        background-position: center;
+    }
+    #stacktower:hover{
+        background-size: cover;
+        background-image: url(../animations/stacktower.png);
+        background-position: center;
+    }
+    #underrun:hover{
+        background-size: cover;
+        background-image: url(../animations/underrun.png);
+        background-position: center;
+    }
+    #vex:hover{
+        background-size: cover;
+        background-image: url(../animations/vex.png);
+        background-position: center;
+    }
+    #retro:hover{
+        background-size: cover;
+        background-image: url(../animations/retro.png);
+        background-position: center;
+    }
 </style>
 <script>
     function ducklife(){
@@ -1288,6 +1357,116 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "../gamepages/htmlgames/html5/retrobowl/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function rooftopsniper(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/rooftopsniper/play/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function run3(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/run3/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function stack(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/stack/play/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function stacktower(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/stacktower/play/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function underrun(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/underrun/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function vex3(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/vex3/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function vex4(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/vex4/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function vex5(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/vex5/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function vex6(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/vex6/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function retro(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/webretro/index.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
