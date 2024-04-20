@@ -28,9 +28,46 @@ Then Their will be a choose file button select that button then select your game
 <p>You can set your keybinds by pressing the controls button &gt; KeyBinds</p>
 </blockquote>
 </div>
+<div id="rightpa">
+    <div id="consoles">
+        <div class="consoleb" onclick="nes()">
+            <p class="downloadt">> Original Nintendo (NES) Games</p>
+        </div>
+    </div>
+    <div id="nes">
+        <div class="download" onclick="nesback()"><p class="downloadt">Back</p></div>
+        <div class="download"><a href="..\roms\nes\Super Mario Bros (E).nes" class="downloadt">Super Mario</a></div>
+        <div class="download"><a href="..\roms\nes\Battle Tank (U).nes" class="downloadt">Battle Tank</a></div>
+        <div class="download"><a href="..\roms\nes\Side Pocket (U).nes" class="downloadt">Side Pocket</a></div>
+        <div class="download"><a href="..\roms\nes\Contra Force (U) [p1].nes" class="downloadt">Contra Force</a></div>
+        <div class="download"><a href="..\roms\nes\Excitebike (E).nes" class="downloadt">Excitebike</a></div>
+        <div class="download"><a href="..\roms\nes\Metroid (U).nes" class="downloadt">Metroid</a></div>
+        <div class="download"><a href="..\roms\nes\Nightmare On Elm Street, A (U).nes" class="downloadt">Nightmare On Elm Street</a></div>
+        <div class="download"><a href="..\roms\nes\Pro Wrestling (U).nes" class="downloadt">Pro Wrestling</a></div>
+        <div class="download"><a href="..\roms\nes\Punch-Out!! (U).nes" class="downloadt">Punch Out</a></div>
+        <div class="download"><a href="..\roms\nes\Super Tank (Battle City Pirate) (J) [p1].nes" class="downloadt">Super Tank</a></div>
+        <div class="download"><a href="..\roms\nes\Tennis (E) [!].nes" class="downloadt">Tennis</a></div>
+        <div class="download"><a href="..\roms\nes\Volleyball (U).nes" class="downloadt">Vollyball</a></div>
+    </div>    
+</div>
 </center>
 </body>
 <style>
+    #nes{
+        display: none;
+        max-height: 99%;
+        overflow-y: scroll;
+    }
+    #consoles{
+    }
+    .consoleb{
+        position: relative;
+        border-radius: 10px;
+        width: 90%;
+        height: 5%;
+        margin: 5px;
+        background-color: rgb(255, 255, 255);
+    }
     #pa{
         border-style: solid;
         border-color: rgb(255, 255, 255);
@@ -39,7 +76,42 @@ Then Their will be a choose file button select that button then select your game
         width: 50%;
         height: 99%;
     }
+    #rightpa{
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        position: absolute;
+        /*transform: scale(200%);*/
+        right: 0px;
+        width: 50%;
+        height: 99%;
+    }
     #body{
-        background-color: rgb(75, 75, 75);
+        background-color: rgb(59, 59, 59);
+    }
+    .download{
+        position: relative;
+        border-radius: 10px;
+        width: 90%;
+        height: 5%;
+        margin: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+    .downloadt{
+        position: relative;
+        top: 25%;
     }
 </style>
+<script>
+    function nes(){
+        const nes = document.getElementById("nes");
+        const console = document.getElementById("consoles");
+        nes.style.display = "block";
+        console.style.display = "none";
+    }
+    function nesback(){
+        const nes = document.getElementById("nes");
+        const console = document.getElementById("consoles");
+        nes.style.display = "none";
+        console.style.display = "block";
+    }
+</script>
