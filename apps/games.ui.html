@@ -20,6 +20,9 @@
     <body id="body">
         <button id="x" onclick="closea()">X</button>
     <div id="parent">
+        <div class="icon" onclick="ironsnout()" id="ironsnout">
+            <p style="color: white;">Iron<br>Snout</p>
+        </div>
         <div class="icon" onclick="archer()" id="archer">
             <p style="color: white;">Archer Game</p>
         </div>
@@ -1467,6 +1470,17 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "../gamepages/htmlgames/html5/webretro/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function ironsnout(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../games/Iron snout/index.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
