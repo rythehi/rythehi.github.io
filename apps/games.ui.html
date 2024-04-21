@@ -215,6 +215,9 @@
         <div class="icon" onclick="retro()" id="retro">
             <p style="color: white;">Web<br>Retro</p>
         </div>
+        <div class="icon" onclick="agewar()" id="agewar">
+            <p style="color: white;">Age<br>Of War</p>
+        </div>
     </div>
     </body>
     <div id="sidebar">
@@ -465,6 +468,7 @@
         display: none;
         border-color: white;
         background-color: black;
+        overflow: hidden;
    }
    .nbutton{
         display: none;
@@ -483,7 +487,7 @@
     width: 65%;
     max-height: 100%;
     left: 0px;
-    overflow: scroll; 
+    overflow-Y: scroll; 
    }
    /* Hide horizontal scrollbar */
     body::-webkit-scrollbar {
@@ -1111,6 +1115,16 @@
         background-image: url(../animations/retro.png);
         background-position: center;
     }
+    #ironsnout:hover{
+        background-size: cover;
+        background-image: url(../animations/ironsnout.png);
+        background-position: center;
+    }
+    #agewar:hover{
+        background-size: cover;
+        background-image: url(../animations/ageofwar.png);
+        background-position: center;
+    }
 </style>
 <script>
     function ducklife(){
@@ -1481,6 +1495,17 @@
         const parent = document.getElementById("parent");
 	    const app = document.getElementById("app");
         app.src = "../games/Iron snout/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function agewar(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../games/ubg98.github.io-gh-pages/age-of-war-unblocked.html";
         app.style.display = "block";
         parent.style.display = "none";
         nparent.style.display = "none";
