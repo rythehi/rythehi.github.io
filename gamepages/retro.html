@@ -33,6 +33,9 @@ Then Their will be a choose file button select that button then select your game
         <div class="consoleb" onclick="nes()">
             <p class="downloadt">> Original Nintendo (NES) Games</p>
         </div>
+        <div class="consoleb" onclick="snes()">
+            <p class="downloadt">> Super Nintendo (SNES) Games</p>
+        </div>
     </div>
     <div id="nes">
         <div class="download" onclick="nesback()"><p class="downloadt">Back</p></div>
@@ -49,10 +52,19 @@ Then Their will be a choose file button select that button then select your game
         <div class="download"><a href="..\roms\nes\Tennis (E) [!].nes" class="downloadt">Tennis</a></div>
         <div class="download"><a href="..\roms\nes\Volleyball (U).nes" class="downloadt">Vollyball</a></div>
     </div>    
+    <div id="snes" class="games">
+        <div class="download" onclick="nesback()"><p class="downloadt">Back</p></div>
+        <div class="download"><a href="..\roms\snes\NFL Football (U).smc" class="downloadt">NFL Football</a></div>
+        <div class="download"><a href="..\roms\snes\Super Battletank 2 (U).smc" class="downloadt">Super BattleTank 2</a></div>
+        <div class="download"><a href="..\roms\snes\Super Tennis (U) [!].smc" class="downloadt">Super Tennis</a></div>
+    </div>    
 </div>
 </center>
 </body>
 <style>
+    .games{
+        display: none;
+    }
     #nes{
         display: none;
         max-height: 99%;
@@ -110,8 +122,16 @@ Then Their will be a choose file button select that button then select your game
     }
     function nesback(){
         const nes = document.getElementById("nes");
+        const snes = document.getElementById("snes");
         const console = document.getElementById("consoles");
         nes.style.display = "none";
+        snes.style.display = "none";
         console.style.display = "block";
+    }
+    function snes(){
+        const snes = document.getElementById("snes");
+        const console = document.getElementById("consoles");
+        snes.style.display = "block";
+        console.style.display = "none";
     }
 </script>
