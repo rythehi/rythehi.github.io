@@ -37,6 +37,10 @@ PLease Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 
 [Infinite-Runners](#infinite-runners)
 
+[Patformers](#Platformers)
+
+[RPG](#RPG)
+
 ## Shooters 
 * Smash Karts
 * Robot Clash (Soory Really don'y know what it is called)
@@ -59,3 +63,14 @@ PLease Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 * Tunnel Run
 * Flappy Bird
 * Tunnel Run
+
+## Platformers 
+* Ninja Island
+* Vex Series
+* Moto XM
+* Fireboy And Water Girl
+* Geomtry Dash
+* Ninja VS Evil Corp
+
+## RPG
+* Friendly 
