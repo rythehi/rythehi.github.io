@@ -20,6 +20,9 @@
     <body id="body">
         <button id="x" onclick="closea()">X</button>
     <div id="parent">
+        <div class="icon" onclick="blockparkour()" id="blockparkour">
+            <p style="color: white;">Block<br>Parkour3d</p>
+        </div>
         <div class="icon" onclick="ironsnout()" id="ironsnout">
             <p style="color: white;">Iron<br>Snout</p>
         </div>
@@ -1136,6 +1139,17 @@
     }
 </style>
 <script>
+    function blockparkour(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../games/parkour-block-3d-main/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
     function ducklife(){
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");
