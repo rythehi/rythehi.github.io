@@ -3,6 +3,9 @@
         <button id="x" onclick="closea()">X</button>
     <div id="parent">
         <center>
+        <div class="icon" onclick="sandgame()" id="sandgame">
+            <p style="color: white;">Sand<br>Game</p>
+        s</div>    
         <div class="icon" onclick="spacebuggy()" id="spacebuggy">
             <p style="color: white;">Space Buggy</p>
         </div>
@@ -42,6 +45,18 @@
         <div class="icon" onclick="paperio()" id="paperio">
             <p style="color: white;">Paper<br>IO</p>
         </div>
+        <div class="icon" onclick="racer()" id="racer">
+            <p style="color: white;">Pixle<br>Racer</p>
+        </div>
+        <div class="icon" onclick="run3()" id="run3">
+            <p style="color: white;">Run<br>3</p>
+        </div>
+        <div class="icon" onclick="stack()" id="stack">
+            <p style="color: white;">Stack<br>Game</p>
+        </div>
+        <div class="icon" onclick="stacktower()" id="stacktower">
+            <p style="color: white;">Stack<br>Tower</p>
+        </div>
     </div>
      </center>
     </body>
@@ -50,6 +65,31 @@
     </iframe>
 </html>
 <style>
+    #stacktower:hover{
+        background-size: cover;
+        background-image: url(../animations/stacktower.png);
+        background-position: center;
+    }
+    #stack:hover{
+        background-size: cover;
+        background-image: url(../animations/stack.png);
+        background-position: center;
+    }
+    #run3:hover{
+        background-size: cover;
+        background-image: url(../animations/run3.png);
+        background-position: center;
+    }
+    #racer:hover{
+        background-size: cover;
+        background-image: url(../animations/racer.png);
+        background-position: center;
+    }
+    #sandgame:hover{
+        background-size: cover;
+        background-image: url(../animations/sandgame.png);
+        background-position: center;
+    }
     #paperio:hover{
         background-size: cover;
         background-image: url(../animations/paperio.png);
@@ -259,6 +299,61 @@
 </style>
 <script type="text/javascript">
     var close = 0;
+    function stacktower(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/stacktower/play/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function stack(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/stack/play/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function run3(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/run3/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function racer(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/racer/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function sandgame(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/physicsplayground/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
     function paperio(){
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");

@@ -3,6 +3,9 @@
         <button id="x" onclick="closea()">X</button>
     <div id="parent">
         <center>
+        <div class="icon" onclick="blockparkour()" id="blockparkour">
+            <p style="color: white;">Block<br>Parkour3d</p>
+        </div>
         <div class="icon" onclick="nseries()" id="nisland">
             <p style="color: white;">Ninja island</p>
         </div>
@@ -26,6 +29,18 @@
         </div>
         <div class="icon" onclick="ninjaevilcorp()" id="ninjaevilcorp">
             <p style="color: white;">Ninja<br>EvilCorp</p>
+        </div>
+        <div class="icon" onclick="vex3()" id="vex">
+            <p style="color: white;">vex<br>3</p>
+        </div>
+        <div class="icon" onclick="vex4()" id="vex">
+            <p style="color: white;">vex<br>4</p>
+        </div>
+        <div class="icon" onclick="vex5()" id="vex">
+            <p style="color: white;">vex<br>5</p>
+        </div>
+        <div class="icon" onclick="vex6()" id="vex">
+            <p style="color: white;">vex<br>6</p>
         </div>
         </center>
     </div>
@@ -67,6 +82,16 @@
     </iframe>
 </html>
 <style>
+    #blockparkour:hover{
+        background-size: cover;
+        background-image: url(../animations/blockparkour.png);
+        background-position: center;
+    }
+    #vex:hover{
+        background-size: cover;
+        background-image: url(../animations/vex.png);
+        background-position: center;
+    }
     #ninjaevilcorp:hover{
         background-size: cover;
         background-image: url(../animations/ninjaevilcorp.png);
@@ -196,7 +221,61 @@
 </style>
 <script type="text/javascript">
     var close = 0;
-    
+    function blockparkour(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../games/parkour-block-3d-main/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function vex3(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/vex3/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function vex4(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/vex4/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function vex5(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/vex5/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function vex6(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/vex6/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
     function ninjaevilcorp(){
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");

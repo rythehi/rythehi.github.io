@@ -9,6 +9,9 @@
             <div class="icon" onclick="chess()" id="chess">
                 <p style="color: white;">Singleplayer<br>Chess</p>
             </div>
+            <div class="icon" onclick="pushback()" id="pushback">
+                <p style="color: white;">Push<br>Back</p>
+            </div>
      </center>
     </body>
     <iframe id="app">
@@ -16,6 +19,11 @@
     </iframe>
 </html>
 <style>
+    #pushback:hover{
+        background-size: cover;
+        background-image: url(../animations/pushback.png);
+        background-position: center;
+    }
     #chess:hover{
         background-size: cover;
         background-image: url(../animations/chess.png);
@@ -130,6 +138,17 @@
 </style>
 <script type="text/javascript">
     var close = 0;
+    function pushback(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/pushback/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
     function chess(){
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");

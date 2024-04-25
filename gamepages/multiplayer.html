@@ -6,6 +6,9 @@
             <div class="icon" onclick="basketballstars()" id="basketballstars">
                 <p style="color: white;">Basketball<br>Stars</p>
             </div>
+            <div class="icon" onclick="paperio()" id="paperio">
+                <p style="color: white;">Paper<br>IO</p>
+            </div>
      </center>
     </body>
     <iframe id="app">
@@ -13,6 +16,11 @@
     </iframe>
 </html>
 <style>
+    #paperio:hover{
+        background-size: cover;
+        background-image: url(../animations/paperio.png);
+        background-position: center;
+    }
     #basketballstars:hover{
         background-size: cover;
         background-image: url(../animations/Basketballstars.png);
@@ -122,6 +130,17 @@
 </style>
 <script type="text/javascript">
     var close = 0;
+    function paperio(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/paperio/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
     function basketballstars(){
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");

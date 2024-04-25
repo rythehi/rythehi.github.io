@@ -24,6 +24,15 @@
         <div class="icon" onclick="evilglitch()" id="evilglitch">
             <p style="color: white;">Evil<br>Glitch</p>
         </div>
+        <div class="icon" onclick="q1()" id="q1">
+            <p style="color: white;">q1k3<br>(shooter)</p>
+        </div>
+        <div class="icon" onclick="rooftopsniper()" id="rooftopsniper">
+            <p style="color: white;">RoofTop<br>Sniper</p>
+        </div>
+        <div class="icon" onclick="underrun()" id="underrun">
+            <p style="color: white;">Under<br>Run</p>
+        </div>
         </center>
     </div>
     </body>
@@ -32,6 +41,21 @@
     </iframe>
 </html>
 <style>
+    #underrun:hover{
+        background-size: cover;
+        background-image: url(../animations/underrun.png);
+        background-position: center;
+    }
+    #rooftopsniper:hover{
+        background-size: cover;
+        background-image: url(../animations/rooftopsniper.png);
+        background-position: center;
+    }
+    #q1:hover{
+        background-size: cover;
+        background-image: url(../animations/q1k3.png);
+        background-position: center;
+    }
     #evilglitch:hover{
         background-size: cover;
         background-image: url(../animations/evilglitch.png);
@@ -238,6 +262,39 @@
 </style>
 <script type="text/javascript">
     var close = 0;
+    function underrun(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/underrun/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function rooftopsniper(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/rooftopsniper/play/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
+    function q1(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+	    const app = document.getElementById("app");
+        app.src = "../gamepages/htmlgames/html5/q1k3/index.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
     function evilglitch(){
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");

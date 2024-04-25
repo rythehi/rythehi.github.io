@@ -20,6 +20,10 @@
     <body id="body">
         <button id="x" onclick="closea()">X</button>
     <div id="parent">
+        <label><p style="color: white;">Search</p></label><textarea id="sbar" rows="1"></textarea>
+        <div id="search result">
+
+        </div>
         <div class="icon" onclick="blockparkour()" id="blockparkour">
             <p style="color: white;">Block<br>Parkour3d</p>
         </div>
@@ -288,6 +292,18 @@
             
     </iframe>
 </html>
+<script src="../Scripts/Bookmark.js"></script>
+<style>
+    #sbar{
+        resize: none;
+        background-color: transparent;
+        border-radius: 20px;
+        width: 100%;
+        color: white;
+        padding: 10px 0;
+    }
+</style>
+<script src="../Scripts/Search.js"></script>
 <style>
     .sideicon{
         position: relative;
@@ -1011,6 +1027,11 @@
     }
 </script>
 <style>
+    #blockparkour:hover{
+        background-size: cover;
+        background-image: url(../animations/blockparkour.png);
+        background-position: center;
+    }
     #ducklife:hover{
         background-size: cover;
         background-image: url(../animations/ducklife.png);
