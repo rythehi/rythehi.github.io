@@ -19,6 +19,11 @@
     </header>
     <body id="body">
         <button id="x" onclick="closea()">X</button>
+            <!--
+        <div id="popupdiv">
+            <button onclick="close()">X</button>
+        </div>
+    -->
     <div id="parent">
             <textarea id="sbar" rows="1" placeholder="Search..."></textarea>
         <div id="search result">
@@ -292,6 +297,7 @@
             
     </iframe>
 </html>
+<script src="../Scripts/popup.js"></script>
 <script src="../Scripts/Bookmark.js"></script>
 <style>
     #sbar{
@@ -302,8 +308,34 @@
         color: white;
         padding: 10px 0;
     }
+    #popupdiv{
+        background-color: #5c5b59;
+        position: absolute;
+        z-index: 3;
+        border-style: solid;
+        border-color: whitesmoke;
+        min-width: 50%;
+        min-height: 50%;
+        top: 28%;
+        left: 28%;
+    }
+    #dontshow{
+        position: absolute;
+        top: 90%;
+
+    }
+    #dontshowlabel{
+        position: absolute;
+         top: 90%;
+         left: 1.7%;
+    }
 </style>
-<script src="../Scripts/Search.js"></script>
+<script src="../Scripts/Search.js">
+    function close(){
+    document.getElementById('popupdiv').style.display = "none";
+    alert("called");
+}
+</script>
 <style>
     .sideicon{
         position: relative;
