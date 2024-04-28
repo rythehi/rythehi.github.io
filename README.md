@@ -5,7 +5,7 @@
 
 ##  **[!]important[!]**
 
-PLease Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discussions/1)
+Please Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discussions/1)
  
 ### Recent changes 
 <a id="rc"></a>
@@ -16,9 +16,8 @@ PLease Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 
 ### What Is Coming
 
-* More Games Always More Games
-* Game Icon animations
-* I need to add new games to categories 
+* Toy Defense (if anybody Remebers that game from cool math)
+* The Ability To Bookamerk Your Favorite Games
 
 [Go rythehi.github.io](https://rythehi.github.io)       
 [Mirror Website](http://bettergames.vercel.app)
@@ -41,30 +40,56 @@ PLease Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 
 [RPG](#RPG)
 
+[Multiplayer Games](#Multiplayer)
+
+[Puzzles](#Puzzles)
+
 ## Shooters 
 * Smash Karts
-* Robot Clash (Soory Really don'y know what it is called)
+* Robot Shooter(Soory Really don'y know what it is called (Its Fun Though!))
 * Master Archer
 * Brawlers Multiplayer
 * Master Archer
+* Ascii Space
+* Evil Glitch
+* Q1K3 (My Peronal Favorite and is a FPS Shooter like doom)
+* RoofTop Sniper 
+* Under Run
 
 ## Tycoons
 * Ore Tycoon
 * Cash Tycoon
 * Park Tycoon
 * Candy Clicker
-* City Builder
+* COOKIE CLICKER
+* Doge Miner
+* Duck Life 1-5
 
 ## Infinite Runners
+* Sand Game
 * Space Buggy
 * Tower Climb
 * Clear Game 
 * Dino Game
 * Tunnel Run
 * Flappy Bird
-* Tunnel Run
+* 2028
+* Astray Maze
+* Atari Breakout
+* Crossy Road
+* Edge Surf
+* Pacman
+* Paperio
+* Pixle Racer
+* Run 3
+
+(I know these are confusing but you'll just have to check them out to understand)
+
+* Stack Game
+* Stack Tower
 
 ## Platformers 
+* Blockparkour 3D
 * Ninja Island
 * Vex Series
 * Moto XM
@@ -73,4 +98,17 @@ PLease Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 * Ninja VS Evil Corp
 
 ## RPG
-* Friendly 
+* Friendly Fire
+* Retro Bowl
+* Iron SNout
+* Bounce Back
+* Back Country
+
+## Multiplayer
+* Basketball Stars
+* Paper IO
+
+## Puzzles
+* Blackhole Sqaure
+* Chess 
+* Push Back

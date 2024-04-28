@@ -17,13 +17,12 @@
         </script>
       <!-- End Matomo Code -->
     </header>
+    <h1 id="funtext"></h1>
     <body id="body">
         <button id="x" onclick="closea()">X</button>
-            <!--
         <div id="popupdiv">
-            <button onclick="close()">X</button>
+            <button onclick="closediv()">X</button>
         </div>
-    -->
     <div id="parent">
             <textarea id="sbar" rows="1" placeholder="Search..."></textarea>
         <div id="search result">
@@ -297,7 +296,8 @@
             
     </iframe>
 </html>
-<script src="../Scripts/popup.js"></script>
+<script src="../Scripts/eastereggs.js"></script>
+<script src="../Scripts/popupdiv.js"></script>
 <script src="../Scripts/Bookmark.js"></script>
 <style>
     #sbar{
@@ -331,10 +331,6 @@
     }
 </style>
 <script src="../Scripts/Search.js">
-    function close(){
-    document.getElementById('popupdiv').style.display = "none";
-    alert("called");
-}
 </script>
 <style>
     .sideicon{
