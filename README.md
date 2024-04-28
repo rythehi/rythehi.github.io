@@ -18,6 +18,7 @@ Please Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 
 * Toy Defense (if anybody Remebers that game from cool math)
 * The Ability To Bookamerk Your Favorite Games
+* Light And Dark Mode
 
 [Go rythehi.github.io](https://rythehi.github.io)       
 [Mirror Website](http://bettergames.vercel.app)
