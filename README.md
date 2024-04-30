@@ -17,8 +17,8 @@ Please Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 ### What Is Coming
 
 * Toy Defense (if anybody Remebers that game from cool math)
-* The Ability To Bookamerk Your Favorite Games
-* Light And Dark Mode
+* The Ability To Bookamerk Your Favorite Games - Im gonna try realease on May 8
+* Light And Dark Mode - May 15 At MAX
 
 [Go rythehi.github.io](https://rythehi.github.io)       
 [Mirror Website](http://bettergames.vercel.app)
