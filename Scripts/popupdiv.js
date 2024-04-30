@@ -1,10 +1,10 @@
 function closediv(){
     document.getElementById('popupdiv').style.display = 'none';
-    localStorage.setItem('gamespopupnews', '1')
+    localStorage.setItem('gamespopupnews', '2')
 }
 window.onload = function(){
     const pop = localStorage.getItem('gamespopupnews')
-    if (pop == '1'){
+    if (pop == '2'){
         document.getElementById('popupdiv').style.display = "none"
     }
     else{
