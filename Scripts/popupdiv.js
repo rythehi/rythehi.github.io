@@ -1,14 +1,14 @@
-function closediv(){
+function closediv() {
     document.getElementById('popupdiv').style.display = 'none';
-    localStorage.setItem('gamespopupnews', '2')
+    localStorage.setItem('gamespopupnews', '1');
 }
-window.onload = function(){
-    const pop = localStorage.getItem('gamespopupnews')
-    if (pop == '2'){
-        document.getElementById('popupdiv').style.display = "none"
+
+window.onload = function() {
+    const pop = localStorage.getItem('gamespopupnews');
+    if (pop === '1') {
+        document.getElementById('popupdiv').style.display = "none";
+    } else {
+        document.getElementById('popupdiv').style.display = "block";
     }
-    else{
-        document.getElementById('popupdiv').style.display = "block"
-    }
-    console.log(localStorage.getItem('gamespopupnews'))
+    console.log(localStorage.getItem('gamespopupnews'));
 }
