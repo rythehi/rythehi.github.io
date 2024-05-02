@@ -1,11 +1,11 @@
 function closediv() {
     document.getElementById('popupdiv').style.display = 'none';
-    localStorage.setItem('gamespopupnews', '1');
+    localStorage.setItem('gamespopupnews', '3');
 }
 
 window.onload = function() {
     const pop = localStorage.getItem('gamespopupnews');
-    if (pop === '1') {
+    if (pop === '3') {
         document.getElementById('popupdiv').style.display = "none";
     } else {
         document.getElementById('popupdiv').style.display = "block";
