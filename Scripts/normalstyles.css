@@ -1,0 +1,11 @@
+#tlk{
+    position: absolute;
+    height: 38%;
+    width: 100%;
+    background-color: white;
+}
+#buttonexchat{
+    border-radius: 5px;
+    background-color: #5c5b59;
+    box-shadow: 2px 3px 0px rgb(255, 255, 255);
+}
