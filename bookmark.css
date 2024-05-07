@@ -29,6 +29,7 @@
     width: 33%;
     top: 17%;
     height: 82%;
+    overflow: hidden;
 }
 #bookmarkp{
     position: relative;

@@ -3,6 +3,7 @@
     height: 38%;
     width: 100%;
     background-color: white;
+    overflow: hidden;
 }
 #buttonexchat{
     border-radius: 5px;
