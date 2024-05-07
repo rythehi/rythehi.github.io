@@ -4,7 +4,7 @@ function exchat(){
     const chat  = document.getElementById('tlk');
     chat.style.position = "relative";
     chat.style.top = "5%";
-    chat.style.height = "83%";
+    chat.style.height = "83vh";
     sidebuttons.style.display = "none";
     button.innerHTML = "Unexpand Chat";
     button.setAttribute('onclick', 'unchat()')
@@ -15,7 +15,7 @@ function unchat(){
     const chat  = document.getElementById('tlk');
     chat.style.position = "relative";
     chat.style.top = "";
-    chat.style.height = "38%";
+    chat.style.height = "38vh";
     sidebuttons.style.display = "block";
     button.innerHTML = "Expand Chat";
     button.setAttribute('onclick', 'exchat()')
