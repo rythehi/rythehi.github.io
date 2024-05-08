@@ -50,6 +50,10 @@
         <div id="search result">
 
         </div>
+        <div class="icon" onclick="toydefense()" id="toydefense">
+            <span class="bookmark-icon" onclick="event.stopPropagation(); bookmark('toydefense');"></span>
+            <p style="color: white;">Toy<br>Defense</p>
+        </div>
         <div class="icon" onclick="blockparkour()" id="blockparkour">
             <span class="bookmark-icon" onclick="event.stopPropagation(); bookmark('blockparkour');"></span>
             <p style="color: white;">Block<br>Parkour3d</p>
@@ -388,6 +392,7 @@
         height: 99%;
     }
 </style>
+<script src="Scripts/Games.js"></script>
 <script src="Scripts/eastereggs.js"></script>
 <script src="Scripts/popupdiv.js"></script>
 <script src="Scripts/Bookmark.js"></script>
@@ -437,6 +442,11 @@
     }
     .sideicon:hover{
         cursor: pointer;
+    }
+    #toydefense:hover{
+        background-size: cover;
+        background-image: url(animations/toydefense.png);
+        background-position: center;
     }
     #archer:hover{
         background-size: cover;
