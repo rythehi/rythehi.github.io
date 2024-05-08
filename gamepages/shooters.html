@@ -3,6 +3,10 @@
         <button id="x" onclick="closea()">X</button>
     <div id="parent">
         <center>
+        <div class="icon" onclick="awesometanks()" id="awesometanks">
+            <span class="bookmark-icon" onclick="event.stopPropagation(); bookmark('awesometanks');"></span>
+            <p style="color: white;">Awesome<br>Tanks 2</p>
+        </div>
         <div class="icon" onclick="archer()" id="archer">
             <p style="color: white;">Archer Game</p>
         </div>
@@ -41,6 +45,11 @@
     </iframe>
 </html>
 <style>
+    #awesometanks:hover{
+        background-size: cover;
+        background-image: url(animations/awesometanks.png);
+        background-position: center;
+    }
     #underrun:hover{
         background-size: cover;
         background-image: url(../animations/underrun.png);
@@ -262,6 +271,17 @@
 </style>
 <script type="text/javascript">
     var close = 0;
+        function awesometanks(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+        const app = document.getElementById("app");
+        app.src = "https://ubg98.github.io/AwesomeTanks2/";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
     function underrun(){
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");

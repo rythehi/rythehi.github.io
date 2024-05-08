@@ -3,6 +3,10 @@
         <button id="x" onclick="closea()">X</button>
     <div id="parent">
         <center>
+        <div class="icon" onclick="toydefense()" id="toydefense">
+            <span class="bookmark-icon" onclick="event.stopPropagation(); bookmark('toydefense');"></span>
+            <p style="color: white;">Toy<br>Defense</p>
+        </div>
         <div class="icon" onclick="oretycoon()" id="oretycoon">
             <p style="color: white;">Ore Tycoon</p> 
         </div>
@@ -44,6 +48,11 @@
     </iframe>
 </html>
 <style>
+    #toydefense:hover{
+        background-size: cover;
+        background-image: url(animations/toydefense.png);
+        background-position: center;
+    }
     #ducklife:hover{
         background-size: cover;
         background-image: url(../animations/ducklife.png);
@@ -234,6 +243,17 @@
 </style>
 <script type="text/javascript">
     var close = 0;
+    function toydefense(){
+        const nparent = document.getElementById("nparent");
+        const parent = document.getElementById("parent");
+        const app = document.getElementById("app");
+        app.src = "games/ubggames/toy-defense-unblocked.html";
+        app.style.display = "block";
+        parent.style.display = "none";
+        nparent.style.display = "none";
+        document.getElementById('x').style.display = "block";
+        close = 1;
+    }
     function ducklife5(){
         const nparent = document.getElementById("nparent");
         const parent = document.getElementById("parent");
