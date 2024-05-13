@@ -3,7 +3,7 @@
     height: 90vh;
     width: 100%;
     background-color: white;
-    overflow: hidden;
+    overflow-y: scroll;
     top: 5vh;
     display: none;
 }
