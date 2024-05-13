@@ -1,10 +1,10 @@
 #tlk{
-    position: absolute;
-    height: 80vh;
+    position: relative;
+    height: 90vh;
     width: 100%;
     background-color: white;
     overflow: hidden;
-    top: 15vh;
+    top: 5vh;
     display: none;
 }
 #buttonexchat{
