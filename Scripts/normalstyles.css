@@ -6,6 +6,7 @@
     overflow-y: scroll;
     top: 5vh;
     display: none;
+    bottom: 0px;
 }
 #buttonexchat{
     border-radius: 5px;
