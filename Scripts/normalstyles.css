@@ -1,9 +1,11 @@
 #tlk{
     position: absolute;
-    height: 38vh;
+    height: 100%;
     width: 100%;
     background-color: white;
     overflow: hidden;
+    top: 10vh;
+    display: none;
 }
 #buttonexchat{
     border-radius: 5px;

@@ -5,6 +5,7 @@
     position: absolute;
     border-style: solid;
     border-color: white;
+    border-radius: 1vh;
     margin-bottom:5px;
     width: 99.5%;
     height: 15%;
@@ -20,10 +21,12 @@
     left: 0px;
     top: 17%;
     overflow-Y: scroll; 
+    border-radius: 1vh;
    }
 #sidebar{
     border-style: solid;
     border-color: white;
+    border-radius: 1vh;
     position: absolute;
     right: 0px;
     width: 33%;
@@ -45,8 +48,9 @@
     /*padding: 2%;*/
     border-style: solid;
     border-radius: 20px;
+    border-color: white;
     text-align: center;
-    background-color: #5c5b59;
+    background-color: #5c5b5900;
     margin: 1%;
     display: inline-block;
 }
@@ -63,9 +67,10 @@
     padding: 50px;
     border-style: solid;
     border-radius: 20px;
+    border-color: white;
     text-align: center;
     vertical-align: center;
-    background-color: #5c5b59;
+    background-color: transparent;
     width: 60px;
     min-height: 60px;
     margin: 10px;
@@ -93,4 +98,6 @@
     height: 50px;
     background-image: url('assets/bookmark.png'); /* Replace with your bookmark icon image */
     background-size: cover;
+    background-color: white;
+    border-radius: 100vh;
   }
