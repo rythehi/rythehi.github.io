@@ -1,33 +1,34 @@
-# Unblocked Games
+# Unblocked Games ❤
 
-# skip to the part you want
+# skip to the part you want 🤑
 [Recent Changes](#rc) [games list](#games) [upcoming](#what-is-coming)
 
 ##  **[!]important[!]**
 
-Please Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discussions/1)
+Please Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discussions/1)🙏
  
 ### Recent changes 
 <a id="rc"></a>
-* Amongus Loads Faster
-* Added More Icon Images On Hover
-* Home Page Split Into Apps And Games there are some [bugs](#bugs)
+* New Styled icons which looks great!!
+* Awsome tanks 2 i have been loving this game for forever
+* Age of war just a simple tower defense
+* AND Toy Defense I alos like from coolmath
+  Hope You Enjoy!!!😊
 
 
 ### What Is Coming
 
-* Toy Defense (if anybody Remebers that game from cool math)
+* Cool Secret Update
 
 [Go rythehi.github.io](https://rythehi.github.io)       
 [Mirror Website](http://bettergames.vercel.app)
 
 
-## Bugs 
+## Bugs🤔 (reminder for me)👍
 
 [Report Bugs](https://github.com/rythehi/rythehi.github.io/discussions/1)
 <a id="bugs"></a>
 * Flappy Bird does not work right
-* Chat not overflows side bar
 
 # games
 [Shooters](#shooters)
@@ -55,6 +56,7 @@ Please Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 * Q1K3 (My Peronal Favorite and is a FPS Shooter like doom)
 * RoofTop Sniper 
 * Under Run
+* Awsome Tanks 2
 
 ## Tycoons
 * Ore Tycoon
@@ -64,6 +66,8 @@ Please Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 * COOKIE CLICKER
 * Doge Miner
 * Duck Life 1-5
+* Age Of War
+* Toy Defense
 
 ## Infinite Runners
 * Sand Game
