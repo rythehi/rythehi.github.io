@@ -18,3 +18,11 @@
     background-image: url(animations/toydefense.png);
     background-position: center;
 }
+#popupclose{
+    border-style: solid;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    margin: 4px;
+    border-radius: 10px;
+}

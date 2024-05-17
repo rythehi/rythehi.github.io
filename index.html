@@ -3,7 +3,7 @@
         <link href="bookmark.css" rel="stylesheet" type="text/css">
         <link href="Scripts/normalstyles.css" rel="stylesheet" type="text/css">
         <title>Games</title>
-        <link rel="icon" type="image/x-icon" href="ICON.png">
+        <link rel="icon" type="image/x-icon" href="ICON.ico">
         <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-57MKGYVS7K"></script>
 <script>
@@ -40,7 +40,7 @@
             </div>
         </div>
         <div id="popupdiv">
-            <button onclick="closediv()">X</button>
+            <button onclick="closediv()" id="popupclose">X</button>
             <iframe src="news.html" id="newsframe">
 
             </iframe>
@@ -320,7 +320,7 @@
     </body>
     <div id="sidebar">
         <center>
-            <h1 style="color: white;">Recources/Catagories</h1> <button id="buttonexchat" onclick="exchat()">Expand Chat</button>
+            <h1 style="color: white;">Recources/Catagories</h1> <!--<button id="buttonexchat" onclick="exchat()">Expand Chat</button> -->
         <div id="sidebarbuttons">
         <div class="sideicon" onclick="location.href = ' gamepages/tycoons.html'">
             <p style="color: white;">Tycoon Games</p>
@@ -414,11 +414,12 @@
         margin: 7px;
     }
     #popupdiv{
-        background-color: #5c5b59;
+        background-color: #000000;
         position: absolute;
         z-index: 3;
         border-style: solid;
         border-color: rgb(255, 255, 255);
+        border-radius: 5px;
         min-width: 50%;
         min-height: 50%;
         top: 28%;
