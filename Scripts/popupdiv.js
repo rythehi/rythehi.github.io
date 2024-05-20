@@ -1,16 +1,12 @@
+const pop = localStorage.getItem('gamespopupnews') || 0;
+console.log(pop);
+if (pop == 0) {
+  console.log('if triggered')
+  document.getElementById('popupdiv').style.display = "none";
+  console.log('if called');
+}
 function closediv() {
     document.getElementById('popupdiv').style.display = 'none';
-    localStorage.setItem('gamespopupnews', 'hidden'); // Set a flag to indicate it has been closed
+    localStorage.setItem('gamespopupnews', 0);
+    console.log('closed');
   }
-  
-  window.onload = function() {
-    const pop = localStorage.getItem('gamespopupnews');
-    if (pop !== 'hidden') {
-      document.getElementById('popupdiv').style.display = "block";
-      console.log('if called');
-    } else {
-      document.getElementById('popupdiv').style.display = "none";
-      console.log('else called');
-    }
-    localStorage.setItem('gamespopupnews', 'hidden'); // Set the flag to 'hidden' after showing it once
-  };

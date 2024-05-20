@@ -16,3 +16,12 @@ function unchat(){
     button.innerHTML = "Expand Chat";
     button.setAttribute('onclick', 'exchat()')
 }
+function myLoop() {
+    const search = document.getElementById('sbar').value;
+    if (search == 'secret' || search == 'idk' || search == 'i dont know') {
+        document.getElementById('sbar').value = '';
+        window.location.href = '/newgames/secretshome.html';
+    }
+}
+
+setInterval(myLoop, 500);
