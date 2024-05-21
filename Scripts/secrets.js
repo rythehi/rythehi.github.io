@@ -5,7 +5,6 @@ window.onload = function() {
     // don't un commment
     //tut.style.display = 'block';
     //d3fu4lt('Finaly i have been here waiting forever');
-    localStorage.setItem('secretload', 0)
     var load = localStorage.getItem('secretload') || 0;
     console.log(load);
 // condition load == 0
