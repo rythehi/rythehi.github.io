@@ -8,7 +8,7 @@ window.onload = function() {
     var load = localStorage.getItem('secretload') || 0;
     console.log(load);
 // condition load == 0
-    if (true) {
+    if (load == 0) {
         console.log('if triggered');
         tut.style.display = 'block';
         localStorage.setItem('secretload', 1);
