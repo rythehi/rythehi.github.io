@@ -1,10 +1,9 @@
-
 var game = JSON.parse(localStorage.getItem('unlocked'));
 if (game !== null && typeof game !== 'undefined') {
     console.log('ok!');
 } else {
     console.log("myArray is null or undefined.");
-    localStorage.setItem('unlocked', JSON.stringify([{name:'finalearth2', label:'slope'}]))
+    localStorage.setItem('unlocked', JSON.stringify([{name: 'finalearth2', label: 'Final Earth 2'}]))
     game = JSON.parse(localStorage.getItem('unlocked'));
 }
 for (let i = 0; i < game.length; i++) {
@@ -13,6 +12,7 @@ for (let i = 0; i < game.length; i++) {
     unlock(game[i].name, game[i].label);
 }
 function unlock(name, label){
+    const game = JSON.parse(localStorage.getItem('unlocked'));
     const games = document.getElementById('games');
     const ele = document.createElement('div');
     const elep = document.createElement('p');
@@ -21,8 +21,9 @@ function unlock(name, label){
     console.log(name + ' onclick is = ' + name + '()')
     elep.setAttribute('class', 'iconp');
     elep.textContent = label;
-    games.appendChild(ele);
     ele.appendChild(elep);
+    games.appendchild(ele);
+    game.push({name: name, label: label})
 }
 //game functions (keep seperate)
 function finalearth2(){

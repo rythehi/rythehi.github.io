@@ -24,4 +24,13 @@ function myLoop() {
     }
 }
 
-setInterval(myLoop, 500);
+setInterval(myLoop, 100);
+function search_triggers(){
+    const search = document.getElementById('sbar').value;
+    if (search == 'cool shit'){
+        document.getElementById('sbar').value = '';
+        unlock('slope3', 'Slope3; GREAT!')
+        window.location.href = '/newgames/secretshome.html';
+    }
+}
+setInterval(search_triggers, 100)

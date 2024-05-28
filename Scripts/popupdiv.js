@@ -1,6 +1,6 @@
 const pop = localStorage.getItem('gamespopupnews') || 0;
 console.log(pop);
-if (pop == 0) {
+if (pop == 1) {
   console.log('if triggered')
   document.getElementById('popupdiv').style.display = "none";
   console.log('if called');

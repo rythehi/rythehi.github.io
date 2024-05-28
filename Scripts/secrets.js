@@ -12,7 +12,7 @@ window.onload = function() {
         console.log('if triggered');
         tut.style.display = 'block';
         localStorage.setItem('secretload', 1);
-        localStorage.setItem('unlocked', JSON.stringify([{name:'finalearth2', label:'slope'}]))
+        localStorage.setItem('unlocked', JSON.stringify([{}]))
         d3fu4lt('Finally I have been here waiting forever (click to continue)');
         var defualt_num = 0;
         tut.addEventListener('click', function() {
