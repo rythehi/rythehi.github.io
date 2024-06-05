@@ -46,6 +46,14 @@ window.onload = function() {
                 defualt_num = 7;
             }
             else if (defualt_num == 7){
+                d3fu4lt("Hey its the dev, i was planning on making like a secret world behing the scenes of the actuall website but...");
+                defualt_num = 8;
+            }
+            else if (defualt_num == 8){
+                d3fu4lt("I ran out of motivation and i have lots of other work to do, Thanks so much for choosing my website!!!! BYE!");
+                defualt_num = 9;
+            }
+            else if (defualt_num == 9){
                 tut.style.display = 'none'
                 defualt_num = 6;
             }

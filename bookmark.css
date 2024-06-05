@@ -14,7 +14,7 @@
 }
 #parent{
     border-style: solid;
-    border-color: white;
+    border-color: rgba(255, 255, 255, 0);
     position: absolute;
     width: 79%;
     max-height: 82%;
@@ -23,9 +23,12 @@
     overflow-Y: scroll; 
     border-radius: 1vh;
    }
+::-webkit-scrollbar {
+    display: none;
+}
 #sidebar{
     border-style: solid;
-    border-color: white;
+    border-color: rgba(255, 255, 255, 0);
     border-radius: 1vh;
     position: absolute;
     right: 0px;
