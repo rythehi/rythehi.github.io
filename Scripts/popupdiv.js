@@ -7,6 +7,6 @@ if (pop == 1) {
 }
 function closediv() {
     document.getElementById('popupdiv').style.display = 'none';
-    localStorage.setItem('gamespopupnews', 0);
+    localStorage.setItem('gamespopupnews', 1);
     console.log('closed');
   }
