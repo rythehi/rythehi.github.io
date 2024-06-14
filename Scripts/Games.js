@@ -35,3 +35,18 @@ function closea(){
     }
     close = 0;
 }
+function closea2(){
+    if (close == 1) {
+        const parent = document.getElementById("parent");
+        const app = document.getElementById("app");
+        app.style.display = "none";
+        parent.style.display = "block";
+        document.getElementById('sidebar').style.display = 'block';
+        document.getElementById('main').style.display = 'block';
+        app.src = "";
+    }
+    if (close == 0){
+        window.location.href = "liteindex.html";
+    }
+    close = 0;
+}
