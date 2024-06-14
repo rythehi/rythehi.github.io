@@ -90,6 +90,20 @@
     margin: 10px;
     display: inline-block;
 }
+.icon2{
+    position: relative;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    text-align: center;
+    vertical-align: center;
+    background-color: transparent;
+    width: 40px;
+    min-height: 20px;
+    margin: 10px;
+    display: inline-block;
+}
 .iconlight{
     position: relative;
     padding: 50px;
