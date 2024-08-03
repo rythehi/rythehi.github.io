@@ -3,9 +3,6 @@
 # skip to the part you want 🤑
 [Recent Changes](#rc) [games list](#games) [upcoming](#what-is-coming)
 
-##  **[!]important[!]**
-
-Please Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discussions/1)🙏
  
 ### Recent changes 
 <a id="rc"></a>
@@ -18,9 +15,9 @@ Please Report Bugs To [Here](https://github.com/rythehi/rythehi.github.io/discus
 
 ### What Is Coming
 
-* Cool Secret Update
+* School is almost here so check in for updates
 
-[Go rythehi.github.io](https://rythehi.github.io)       
+[Go awsome-webdev.github.io](https://awsome-webdev.github.io)       
 [Mirror Website](http://bettergames.vercel.app)
 
 
