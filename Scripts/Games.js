@@ -25,6 +25,7 @@ function closea(){
         const parent = document.getElementById("parent");
         const app = document.getElementById("app");
         app.style.display = "none";
+        app.setAttribute('src', '')
         parent.style.display = "block";
         document.getElementById('sidebar').style.display = 'block';
         document.getElementById('main').style.display = 'block';

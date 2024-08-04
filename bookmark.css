@@ -129,3 +129,30 @@
     background-color: white;
     border-radius: 100vh;
   }
+#expandtlk2{
+    position: relative;
+    z-index: 4;
+    margin-left: 0px;
+    margin-top: 40vh;
+    width: 1.5vw;
+    height: 10vh;
+    border-style: none;
+    border-radius: 5px;
+    padding: 3px;
+    display: none;
+}
+#tlk2{
+    position: absolute;
+    z-index: 3;
+    width: fit-content;
+    min-width: 25vw;
+    border-style: solid;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 75%;
+    margin: 50px;
+    margin-left: 10px;
+    margin-top: 0px;
+    top: 10px;
+    display: none;
+}

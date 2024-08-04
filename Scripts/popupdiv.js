@@ -6,7 +6,9 @@ if (pop == 1) {
   console.log('if called');
 }
 function closediv() {
-    document.getElementById('popupdiv').style.display = 'none';
+    const div = document.getElementById('popupdiv');
+    div.style.display = 'none';
+    div.setAttribute('src', '')
     localStorage.setItem('gamespopupnews', 1);
     console.log('closed');
   }
